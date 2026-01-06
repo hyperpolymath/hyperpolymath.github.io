@@ -1,0 +1,52 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a12"/>
+      <stop offset="100%" stop-color="#0f0a1a"/>
+    </linearGradient>
+    <linearGradient id="seam1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="seam2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <!-- Architectural modules -->
+  <g filter="url(#glow)">
+    <rect x="200" y="140" width="200" height="160" rx="12" fill="none" stroke="#06b6d4" stroke-width="3"/>
+    <rect x="480" y="100" width="320" height="200" rx="12" fill="none" stroke="#a855f7" stroke-width="3"/>
+    <rect x="880" y="140" width="200" height="160" rx="12" fill="none" stroke="#fbbf24" stroke-width="3"/>
+    <rect x="340" y="360" width="260" height="140" rx="12" fill="none" stroke="#06b6d4" stroke-width="3"/>
+    <rect x="680" y="360" width="260" height="140" rx="12" fill="none" stroke="#a855f7" stroke-width="3"/>
+  </g>
+  <!-- Seam connections -->
+  <g stroke-width="3" fill="none" filter="url(#glow)">
+    <path d="M400 220 L480 200" stroke="url(#seam1)"/>
+    <path d="M800 200 L880 220" stroke="url(#seam2)"/>
+    <path d="M300 300 L470 360" stroke="url(#seam1)"/>
+    <path d="M640 300 L640 360" stroke="#fbbf24"/>
+    <path d="M810 300 L680 360" stroke="url(#seam2)"/>
+    <path d="M600 430 L680 430" stroke="url(#seam1)"/>
+  </g>
+  <!-- Seam nodes -->
+  <g fill="#fbbf24" filter="url(#glow)">
+    <circle cx="400" cy="220" r="8"/>
+    <circle cx="800" cy="200" r="8"/>
+    <circle cx="640" cy="300" r="10"/>
+    <circle cx="300" cy="300" r="6"/>
+    <circle cx="640" cy="360" r="8"/>
+    <circle cx="600" cy="430" r="6"/>
+    <circle cx="680" cy="430" r="6"/>
+  </g>
+  <text x="640" y="560" text-anchor="middle" font-family="system-ui, sans-serif" font-size="48" font-weight="700" fill="#e6edf3">seamstress</text>
+  <text x="640" y="600" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#8b949e">Architectural Seams as First-Class Artifacts</text>
+</svg>

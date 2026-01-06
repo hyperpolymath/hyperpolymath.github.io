@@ -1,0 +1,54 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a12"/>
+      <stop offset="100%" stop-color="#0f0a1a"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <!-- Multiple language pages fanning out -->
+  <g transform="translate(640, 300)" filter="url(#glow)">
+    <!-- Back pages -->
+    <g transform="rotate(-20)">
+      <rect x="-80" y="-100" width="160" height="200" rx="8" fill="#1a1a2e" stroke="#a855f7" stroke-width="2"/>
+      <text x="0" y="-60" text-anchor="middle" font-family="monospace" font-size="18" fill="#a855f7">Haskell</text>
+      <rect x="-60" y="-40" width="120" height="8" rx="2" fill="#a855f7" opacity="0.3"/>
+      <rect x="-60" y="-20" width="100" height="8" rx="2" fill="#a855f7" opacity="0.2"/>
+      <rect x="-60" y="0" width="80" height="8" rx="2" fill="#a855f7" opacity="0.2"/>
+    </g>
+    <g transform="rotate(-10)">
+      <rect x="-80" y="-100" width="160" height="200" rx="8" fill="#1a1a2e" stroke="#fbbf24" stroke-width="2"/>
+      <text x="0" y="-60" text-anchor="middle" font-family="monospace" font-size="18" fill="#fbbf24">Rust</text>
+      <rect x="-60" y="-40" width="120" height="8" rx="2" fill="#fbbf24" opacity="0.3"/>
+      <rect x="-60" y="-20" width="90" height="8" rx="2" fill="#fbbf24" opacity="0.2"/>
+      <rect x="-60" y="0" width="110" height="8" rx="2" fill="#fbbf24" opacity="0.2"/>
+    </g>
+    <!-- Center page -->
+    <g>
+      <rect x="-80" y="-100" width="160" height="200" rx="8" fill="#1a1a2e" stroke="#06b6d4" stroke-width="3"/>
+      <text x="0" y="-60" text-anchor="middle" font-family="monospace" font-size="18" fill="#06b6d4">OCaml</text>
+      <rect x="-60" y="-40" width="120" height="8" rx="2" fill="#06b6d4" opacity="0.4"/>
+      <rect x="-60" y="-20" width="80" height="8" rx="2" fill="#06b6d4" opacity="0.3"/>
+      <rect x="-60" y="0" width="100" height="8" rx="2" fill="#06b6d4" opacity="0.3"/>
+      <rect x="-60" y="20" width="60" height="8" rx="2" fill="#06b6d4" opacity="0.2"/>
+    </g>
+    <!-- Front pages -->
+    <g transform="rotate(10)">
+      <rect x="-80" y="-100" width="160" height="200" rx="8" fill="#1a1a2e" stroke="#22c55e" stroke-width="2"/>
+      <text x="0" y="-60" text-anchor="middle" font-family="monospace" font-size="18" fill="#22c55e">Zig</text>
+      <rect x="-60" y="-40" width="120" height="8" rx="2" fill="#22c55e" opacity="0.3"/>
+      <rect x="-60" y="-20" width="70" height="8" rx="2" fill="#22c55e" opacity="0.2"/>
+    </g>
+    <g transform="rotate(20)">
+      <rect x="-80" y="-100" width="160" height="200" rx="8" fill="#1a1a2e" stroke="#f97316" stroke-width="2"/>
+      <text x="0" y="-60" text-anchor="middle" font-family="monospace" font-size="18" fill="#f97316">Factor</text>
+      <rect x="-60" y="-40" width="120" height="8" rx="2" fill="#f97316" opacity="0.3"/>
+    </g>
+  </g>
+  <text x="640" y="540" text-anchor="middle" font-family="system-ui, sans-serif" font-size="42" font-weight="700" fill="#e6edf3">poly-ssg</text>
+  <text x="640" y="590" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#8b949e">One Contract, Many Languages, Unique Paradigmatic Strengths</text>
+</svg>

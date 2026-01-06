@@ -1,0 +1,31 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a12"/>
+      <stop offset="100%" stop-color="#0f0a1a"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <!-- MCP Symbol -->
+  <g transform="translate(640, 280)" filter="url(#glow)">
+    <rect x="-120" y="-120" width="240" height="240" rx="24" fill="none" stroke="#06b6d4" stroke-width="4"/>
+    <circle r="50" fill="none" stroke="#a855f7" stroke-width="4"/>
+    <circle r="20" fill="#fbbf24"/>
+    <!-- Connection ports -->
+    <circle cx="-120" cy="0" r="12" fill="#06b6d4"/>
+    <circle cx="120" cy="0" r="12" fill="#06b6d4"/>
+    <circle cx="0" cy="-120" r="12" fill="#06b6d4"/>
+    <circle cx="0" cy="120" r="12" fill="#06b6d4"/>
+    <!-- Lines to center -->
+    <line x1="-108" y1="0" x2="-50" y2="0" stroke="#06b6d4" stroke-width="3"/>
+    <line x1="108" y1="0" x2="50" y2="0" stroke="#06b6d4" stroke-width="3"/>
+    <line x1="0" y1="-108" x2="0" y2="-50" stroke="#06b6d4" stroke-width="3"/>
+    <line x1="0" y1="108" x2="0" y2="50" stroke="#06b6d4" stroke-width="3"/>
+  </g>
+  <text x="640" y="480" text-anchor="middle" font-family="system-ui, sans-serif" font-size="56" font-weight="700" fill="#e6edf3">MCP</text>
+  <text x="640" y="530" text-anchor="middle" font-family="system-ui, sans-serif" font-size="24" fill="#8b949e">Model Context Protocol Server</text>
+</svg>
