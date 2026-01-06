@@ -1,17 +1,7 @@
 <svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0a0a12"/>
-      <stop offset="100%" stop-color="#0f0a1a"/>
-    </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
-      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-  </defs>
-  <rect width="1280" height="640" fill="url(#bg)"/>
+  <rect width="1280" height="640" fill="#0a0a12"/>
   <!-- Book stack -->
-  <g transform="translate(640, 280)" filter="url(#glow)">
+  <g transform="translate(640, 280)">
     <g transform="rotate(-5)">
       <rect x="-80" y="-100" width="160" height="200" rx="4" fill="#1a1a2e" stroke="#cc5500" stroke-width="3"/>
       <rect x="-70" y="-90" width="4" height="180" fill="#cc5500" opacity="0.5"/>
@@ -34,5 +24,5 @@
   <!-- Z logo hint -->
   <text x="640" y="300" text-anchor="middle" font-family="serif" font-size="80" font-weight="700" fill="#cc5500" opacity="0.3">Z</text>
   <text x="640" y="500" text-anchor="middle" font-family="system-ui, sans-serif" font-size="48" font-weight="700" fill="#e6edf3">Zotero Ecosystem</text>
-  <text x="640" y="550" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" fill="#8b949e">Research & Citation Tools</text>
+  <text x="640" y="550" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" fill="#8b949e">Research and Citation Tools</text>
 </svg>

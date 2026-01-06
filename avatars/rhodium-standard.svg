@@ -1,28 +1,13 @@
 <svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0a0a12"/>
-      <stop offset="100%" stop-color="#0f0a1a"/>
-    </linearGradient>
-    <linearGradient id="rhodium" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#c0c0c0"/>
-      <stop offset="50%" stop-color="#e8e8e8"/>
-      <stop offset="100%" stop-color="#a0a0a0"/>
-    </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
-      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-  </defs>
-  <rect width="1280" height="640" fill="url(#bg)"/>
+  <rect width="1280" height="640" fill="#0a0a12"/>
   <!-- Rhodium hexagon badge -->
-  <g transform="translate(640, 260)" filter="url(#glow)">
-    <polygon points="0,-120 104,-60 104,60 0,120 -104,60 -104,-60" fill="none" stroke="url(#rhodium)" stroke-width="4"/>
-    <polygon points="0,-80 69,-40 69,40 0,80 -69,40 -69,-40" fill="none" stroke="url(#rhodium)" stroke-width="2" opacity="0.6"/>
-    <text y="15" text-anchor="middle" font-family="system-ui, sans-serif" font-size="64" font-weight="700" fill="url(#rhodium)">Rh</text>
+  <g transform="translate(640, 260)">
+    <polygon points="0,-120 104,-60 104,60 0,120 -104,60 -104,-60" fill="none" stroke="#c0c0c0" stroke-width="4"/>
+    <polygon points="0,-80 69,-40 69,40 0,80 -69,40 -69,-40" fill="none" stroke="#d0d0d0" stroke-width="2" opacity="0.6"/>
+    <text y="15" text-anchor="middle" font-family="system-ui, sans-serif" font-size="64" font-weight="700" fill="#e0e0e0">Rh</text>
   </g>
   <!-- Compliance checkmarks -->
-  <g filter="url(#glow)">
+  <g>
     <g transform="translate(380, 200)">
       <circle r="30" fill="none" stroke="#22c55e" stroke-width="3"/>
       <path d="M-12,0 L-4,8 L12,-8" stroke="#22c55e" stroke-width="4" fill="none"/>
@@ -49,5 +34,5 @@
     </g>
   </g>
   <text x="640" y="540" text-anchor="middle" font-family="system-ui, sans-serif" font-size="36" font-weight="700" fill="#e6edf3">Rhodium Standard</text>
-  <text x="640" y="590" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" fill="#8b949e">Repository Quality & Compliance</text>
+  <text x="640" y="590" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" fill="#8b949e">Repository Quality and Compliance</text>
 </svg>
