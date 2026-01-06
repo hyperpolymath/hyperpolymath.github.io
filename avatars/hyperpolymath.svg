@@ -1,0 +1,40 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#0a0a12"/>
+  <!-- Hyperpolymath - Main profile avatar -->
+  <g transform="translate(640, 280)">
+    <!-- Interconnected knowledge domains -->
+    <g fill="none" stroke-width="2">
+      <!-- Central hexagon -->
+      <polygon points="0,-80 69,-40 69,40 0,80 -69,40 -69,-40" stroke="#fbbf24" stroke-width="3"/>
+      <!-- Outer circles (knowledge domains) -->
+      <circle cx="0" cy="-120" r="30" stroke="#06b6d4"/>
+      <circle cx="104" cy="-60" r="30" stroke="#a855f7"/>
+      <circle cx="104" cy="60" r="30" stroke="#22c55e"/>
+      <circle cx="0" cy="120" r="30" stroke="#06b6d4"/>
+      <circle cx="-104" cy="60" r="30" stroke="#a855f7"/>
+      <circle cx="-104" cy="-60" r="30" stroke="#22c55e"/>
+    </g>
+    <!-- Connection lines -->
+    <g stroke="#8b949e" stroke-width="1" opacity="0.5">
+      <line x1="0" y1="-80" x2="0" y2="-90"/>
+      <line x1="69" y1="-40" x2="78" y2="-45"/>
+      <line x1="69" y1="40" x2="78" y2="45"/>
+      <line x1="0" y1="80" x2="0" y2="90"/>
+      <line x1="-69" y1="40" x2="-78" y2="45"/>
+      <line x1="-69" y1="-40" x2="-78" y2="-45"/>
+    </g>
+    <!-- Domain symbols -->
+    <g font-family="monospace" font-size="16" text-anchor="middle" fill="#e6edf3">
+      <text x="0" y="-115">λ</text>
+      <text x="104" y="-55">⊢</text>
+      <text x="104" y="65">∫</text>
+      <text x="0" y="125">&lt;/&gt;</text>
+      <text x="-104" y="65">∀</text>
+      <text x="-104" y="-55">∞</text>
+    </g>
+    <!-- Central glow -->
+    <circle cx="0" cy="0" r="20" fill="#fbbf24" opacity="0.3"/>
+  </g>
+  <text x="640" y="480" text-anchor="middle" font-family="system-ui, sans-serif" font-size="48" font-weight="700" fill="#e6edf3">hyperpolymath</text>
+  <text x="640" y="530" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#8b949e">Polyglot Developer • Systems Architect</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#0a0a12"/>
+  <!-- Standards / Specification document -->
+  <g transform="translate(640, 280)">
+    <!-- Document stack -->
+    <rect x="-90" y="-90" width="200" height="200" rx="4" fill="#1a1a2e" stroke="#8b949e" stroke-width="1"/>
+    <rect x="-100" y="-100" width="200" height="200" rx="4" fill="#1a1a2e" stroke="#a855f7" stroke-width="2"/>
+    <!-- RFC-style header -->
+    <line x1="-70" y1="-70" x2="70" y2="-70" stroke="#fbbf24" stroke-width="3"/>
+    <!-- Sections -->
+    <g stroke="#06b6d4" stroke-width="2" fill="none">
+      <line x1="-70" y1="-40" x2="-20" y2="-40"/>
+      <line x1="-70" y1="-10" x2="60" y2="-10"/>
+      <line x1="-70" y1="20" x2="40" y2="20"/>
+      <line x1="-70" y1="50" x2="-30" y2="50"/>
+      <line x1="-70" y1="80" x2="50" y2="80"/>
+    </g>
+    <!-- Standard badge -->
+    <circle cx="120" cy="-60" r="35" fill="none" stroke="#22c55e" stroke-width="3"/>
+    <text x="120" y="-52" text-anchor="middle" font-family="monospace" font-size="20" fill="#22c55e">STD</text>
+  </g>
+  <text x="640" y="460" text-anchor="middle" font-family="system-ui, sans-serif" font-size="52" font-weight="700" fill="#e6edf3">Standard</text>
+  <text x="640" y="510" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#8b949e">Specifications • RFCs • Best Practices</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#0a0a12"/>
+  <!-- Testing / QA -->
+  <g transform="translate(640, 280)">
+    <!-- Test results -->
+    <g font-family="monospace" font-size="18">
+      <text x="-150" y="-60" fill="#22c55e">✓</text>
+      <text x="-120" y="-60" fill="#8b949e">test_unit_parser</text>
+      <text x="-150" y="-25" fill="#22c55e">✓</text>
+      <text x="-120" y="-25" fill="#8b949e">test_integration</text>
+      <text x="-150" y="10" fill="#22c55e">✓</text>
+      <text x="-120" y="10" fill="#8b949e">test_e2e_flow</text>
+      <text x="-150" y="45" fill="#fbbf24">○</text>
+      <text x="-120" y="45" fill="#8b949e">test_pending...</text>
+    </g>
+    <!-- Progress bar -->
+    <rect x="-150" y="80" width="300" height="20" rx="10" fill="#1a1a2e" stroke="#8b949e" stroke-width="1"/>
+    <rect x="-148" y="82" width="222" height="16" rx="8" fill="#22c55e"/>
+    <text x="170" y="95" font-family="monospace" font-size="14" fill="#8b949e">75%</text>
+  </g>
+  <text x="640" y="480" text-anchor="middle" font-family="system-ui, sans-serif" font-size="52" font-weight="700" fill="#e6edf3">Testing</text>
+  <text x="640" y="530" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#8b949e">Unit • Integration • E2E</text>
+</svg>

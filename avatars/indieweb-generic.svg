@@ -1,0 +1,27 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#0a0a12"/>
+  <!-- IndieWeb distributed web -->
+  <g transform="translate(640, 280)">
+    <!-- Central node (personal site) -->
+    <circle cx="0" cy="0" r="40" fill="none" stroke="#22c55e" stroke-width="3"/>
+    <text x="0" y="8" text-anchor="middle" font-family="monospace" font-size="24" fill="#22c55e">~</text>
+    <!-- Distributed nodes -->
+    <g fill="none" stroke-width="2">
+      <circle cx="-120" cy="-60" r="25" stroke="#06b6d4"/>
+      <circle cx="120" cy="-60" r="25" stroke="#a855f7"/>
+      <circle cx="-120" cy="60" r="25" stroke="#fbbf24"/>
+      <circle cx="120" cy="60" r="25" stroke="#06b6d4"/>
+    </g>
+    <!-- Webmention links -->
+    <g stroke="#8b949e" stroke-width="1" stroke-dasharray="4,4">
+      <line x1="-40" y1="-20" x2="-95" y2="-45"/>
+      <line x1="40" y1="-20" x2="95" y2="-45"/>
+      <line x1="-40" y1="20" x2="-95" y2="45"/>
+      <line x1="40" y1="20" x2="95" y2="45"/>
+    </g>
+    <!-- h-card indicator -->
+    <rect x="-15" y="-15" width="30" height="30" rx="4" fill="none" stroke="#22c55e" stroke-width="2"/>
+  </g>
+  <text x="640" y="460" text-anchor="middle" font-family="system-ui, sans-serif" font-size="52" font-weight="700" fill="#e6edf3">IndieWeb</text>
+  <text x="640" y="510" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#8b949e">Own Your Data • Webmentions • POSSE</text>
+</svg>

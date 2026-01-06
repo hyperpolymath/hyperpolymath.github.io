@@ -1,0 +1,23 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#0a0a12"/>
+  <!-- Mustfile configuration document -->
+  <g transform="translate(640, 280)">
+    <!-- Document frame -->
+    <rect x="-120" y="-120" width="240" height="240" rx="8" fill="#1a1a2e" stroke="#fbbf24" stroke-width="3"/>
+    <!-- Config lines -->
+    <g fill="none" stroke-width="2">
+      <line x1="-90" y1="-80" x2="-30" y2="-80" stroke="#a855f7"/>
+      <line x1="-20" y1="-80" x2="90" y2="-80" stroke="#06b6d4"/>
+      <line x1="-90" y1="-40" x2="60" y2="-40" stroke="#8b949e"/>
+      <line x1="-90" y1="0" x2="-40" y2="0" stroke="#a855f7"/>
+      <line x1="-30" y1="0" x2="70" y2="0" stroke="#22c55e"/>
+      <line x1="-90" y1="40" x2="40" y2="40" stroke="#8b949e"/>
+      <line x1="-90" y1="80" x2="-50" y2="80" stroke="#a855f7"/>
+      <line x1="-40" y1="80" x2="90" y2="80" stroke="#fbbf24"/>
+    </g>
+    <!-- Must checkmark -->
+    <polyline points="130,-30 145,0 175,-50" fill="none" stroke="#22c55e" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <text x="640" y="460" text-anchor="middle" font-family="system-ui, sans-serif" font-size="52" font-weight="700" fill="#e6edf3">Mustfile</text>
+  <text x="640" y="510" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#8b949e">Required Configuration Standard</text>
+</svg>

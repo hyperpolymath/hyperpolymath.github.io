@@ -1,0 +1,26 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#0a0a12"/>
+  <!-- The Jeff Paradox - Paradox/quantum theme -->
+  <g transform="translate(640, 280)">
+    <!-- Möbius-like infinity symbol -->
+    <path d="M-100,0 C-100,-60 -50,-60 0,0 C50,60 100,60 100,0 C100,-60 50,-60 0,0 C-50,60 -100,60 -100,0" fill="none" stroke="#a855f7" stroke-width="4"/>
+    <!-- Quantum superposition indicators -->
+    <g fill="none" stroke-width="2">
+      <circle cx="-60" cy="0" r="25" stroke="#06b6d4"/>
+      <circle cx="60" cy="0" r="25" stroke="#fbbf24"/>
+    </g>
+    <!-- State labels -->
+    <text x="-60" y="6" text-anchor="middle" font-family="serif" font-size="20" fill="#06b6d4">|0⟩</text>
+    <text x="60" y="6" text-anchor="middle" font-family="serif" font-size="20" fill="#fbbf24">|1⟩</text>
+    <!-- Entanglement lines -->
+    <g stroke="#22c55e" stroke-width="1" stroke-dasharray="4,4" opacity="0.6">
+      <line x1="-35" y1="-15" x2="35" y2="15"/>
+      <line x1="-35" y1="15" x2="35" y2="-15"/>
+    </g>
+    <!-- Question marks for paradox -->
+    <text x="-150" y="10" font-family="serif" font-size="48" fill="#8b949e" opacity="0.5">?</text>
+    <text x="130" y="10" font-family="serif" font-size="48" fill="#8b949e" opacity="0.5">?</text>
+  </g>
+  <text x="640" y="470" text-anchor="middle" font-family="system-ui, sans-serif" font-size="48" font-weight="700" fill="#e6edf3">thejeffparadox</text>
+  <text x="640" y="520" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#8b949e">Quantum-Inspired Decision Framework</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#0a0a12"/>
+  <!-- Hackenbush SSG - Game theory graph -->
+  <g transform="translate(640, 300)">
+    <!-- Ground line -->
+    <line x1="-200" y1="80" x2="200" y2="80" stroke="#8b949e" stroke-width="4"/>
+    <!-- Hackenbush graph edges -->
+    <g stroke-width="4">
+      <!-- Blue edges -->
+      <line x1="-100" y1="80" x2="-100" y2="20" stroke="#06b6d4"/>
+      <line x1="-100" y1="20" x2="-60" y2="-40" stroke="#06b6d4"/>
+      <line x1="-60" y1="-40" x2="-100" y2="-100" stroke="#06b6d4"/>
+      <!-- Red edges -->
+      <line x1="0" y1="80" x2="0" y2="0" stroke="#ef4444"/>
+      <line x1="0" y1="0" x2="40" y2="-60" stroke="#ef4444"/>
+      <!-- Green edges -->
+      <line x1="100" y1="80" x2="100" y2="20" stroke="#22c55e"/>
+      <line x1="100" y1="20" x2="60" y2="-40" stroke="#22c55e"/>
+    </g>
+    <!-- Nodes -->
+    <g fill="#e6edf3">
+      <circle cx="-100" cy="80" r="6"/>
+      <circle cx="-100" cy="20" r="6"/>
+      <circle cx="-60" cy="-40" r="6"/>
+      <circle cx="-100" cy="-100" r="6"/>
+      <circle cx="0" cy="80" r="6"/>
+      <circle cx="0" cy="0" r="6"/>
+      <circle cx="40" cy="-60" r="6"/>
+      <circle cx="100" cy="80" r="6"/>
+      <circle cx="100" cy="20" r="6"/>
+      <circle cx="60" cy="-40" r="6"/>
+    </g>
+  </g>
+  <text x="640" y="490" text-anchor="middle" font-family="system-ui, sans-serif" font-size="44" font-weight="700" fill="#e6edf3">hackenbush-ssg</text>
+  <text x="640" y="540" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#8b949e">Game-Theoretic Static Site Generator</text>
+</svg>

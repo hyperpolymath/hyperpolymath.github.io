@@ -1,0 +1,29 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#0a0a12"/>
+  <!-- AffineScript - Affine types programming language -->
+  <g transform="translate(640, 280)">
+    <!-- Affine transformation grid -->
+    <g stroke="#8b949e" stroke-width="1" opacity="0.3">
+      <line x1="-150" y1="-100" x2="150" y2="-100"/>
+      <line x1="-150" y1="-50" x2="150" y2="-50"/>
+      <line x1="-150" y1="0" x2="150" y2="0"/>
+      <line x1="-150" y1="50" x2="150" y2="50"/>
+      <line x1="-150" y1="100" x2="150" y2="100"/>
+      <line x1="-150" y1="-100" x2="-150" y2="100"/>
+      <line x1="-75" y1="-100" x2="-75" y2="100"/>
+      <line x1="0" y1="-100" x2="0" y2="100"/>
+      <line x1="75" y1="-100" x2="75" y2="100"/>
+      <line x1="150" y1="-100" x2="150" y2="100"/>
+    </g>
+    <!-- Transformed shape (skewed) -->
+    <polygon points="-60,-60 60,-40 80,60 -40,40" fill="none" stroke="#a855f7" stroke-width="3"/>
+    <!-- Original shape (dotted) -->
+    <rect x="-50" y="-50" width="100" height="100" fill="none" stroke="#06b6d4" stroke-width="2" stroke-dasharray="6,4"/>
+    <!-- Lambda/function symbol -->
+    <text x="0" y="15" text-anchor="middle" font-family="serif" font-size="48" fill="#fbbf24">λ</text>
+    <!-- Type annotation -->
+    <text x="120" y="-70" font-family="monospace" font-size="16" fill="#22c55e">: A ⊸ B</text>
+  </g>
+  <text x="640" y="480" text-anchor="middle" font-family="system-ui, sans-serif" font-size="52" font-weight="700" fill="#e6edf3">affinescript</text>
+  <text x="640" y="530" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#8b949e">Linear Types Programming Language</text>
+</svg>

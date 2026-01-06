@@ -1,0 +1,23 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#0a0a12"/>
+  <!-- Mobile device -->
+  <g transform="translate(640, 300)">
+    <!-- Phone frame -->
+    <rect x="-80" y="-140" width="160" height="280" rx="20" fill="#1a1a2e" stroke="#06b6d4" stroke-width="3"/>
+    <!-- Screen -->
+    <rect x="-65" y="-110" width="130" height="200" rx="4" fill="none" stroke="#a855f7" stroke-width="2"/>
+    <!-- App grid -->
+    <g fill="none" stroke-width="2">
+      <rect x="-55" y="-100" width="30" height="30" rx="6" stroke="#fbbf24"/>
+      <rect x="-15" y="-100" width="30" height="30" rx="6" stroke="#22c55e"/>
+      <rect x="25" y="-100" width="30" height="30" rx="6" stroke="#06b6d4"/>
+      <rect x="-55" y="-60" width="30" height="30" rx="6" stroke="#a855f7"/>
+      <rect x="-15" y="-60" width="30" height="30" rx="6" stroke="#fbbf24"/>
+      <rect x="25" y="-60" width="30" height="30" rx="6" stroke="#22c55e"/>
+    </g>
+    <!-- Home button -->
+    <circle cx="0" cy="110" r="15" fill="none" stroke="#8b949e" stroke-width="2"/>
+  </g>
+  <text x="640" y="500" text-anchor="middle" font-family="system-ui, sans-serif" font-size="52" font-weight="700" fill="#e6edf3">Mobile</text>
+  <text x="640" y="550" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#8b949e">Tauri • Dioxus • Native Apps</text>
+</svg>

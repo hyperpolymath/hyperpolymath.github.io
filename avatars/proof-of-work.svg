@@ -1,0 +1,32 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#0a0a12"/>
+  <!-- Proof of Work - Cryptographic mining concept -->
+  <g transform="translate(640, 280)">
+    <!-- Hash blocks -->
+    <g font-family="monospace" font-size="14" fill="#8b949e">
+      <text x="-150" y="-60">0x4a8f...</text>
+      <text x="-150" y="-30">0x7c2e...</text>
+      <text x="-150" y="0">0x00000...</text>
+      <text x="-150" y="30">0x91b3...</text>
+    </g>
+    <!-- Arrow to solution -->
+    <line x1="-50" y1="0" x2="20" y2="0" stroke="#fbbf24" stroke-width="2"/>
+    <polygon points="20,0 10,-6 10,6" fill="#fbbf24"/>
+    <!-- Solution block -->
+    <rect x="40" y="-50" width="120" height="100" rx="8" fill="#1a1a2e" stroke="#22c55e" stroke-width="3"/>
+    <text x="100" y="-15" text-anchor="middle" font-family="monospace" font-size="16" fill="#22c55e">VALID</text>
+    <text x="100" y="15" text-anchor="middle" font-family="monospace" font-size="12" fill="#8b949e">nonce: 847291</text>
+    <!-- Pickaxe symbol -->
+    <g transform="translate(-80, 70)" stroke="#fbbf24" stroke-width="3" fill="none">
+      <line x1="0" y1="0" x2="40" y2="-40"/>
+      <path d="M35,-45 L50,-30 L40,-40 L45,-55 Z"/>
+    </g>
+    <!-- Energy/work indicator -->
+    <g stroke="#a855f7" stroke-width="2" opacity="0.6">
+      <path d="M-100,-100 L-90,-80 L-110,-60 L-90,-40"/>
+      <path d="M180,-80 L170,-60 L190,-40 L170,-20"/>
+    </g>
+  </g>
+  <text x="640" y="480" text-anchor="middle" font-family="system-ui, sans-serif" font-size="48" font-weight="700" fill="#e6edf3">proof-of-work</text>
+  <text x="640" y="530" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#8b949e">Computational Proof Library</text>
+</svg>

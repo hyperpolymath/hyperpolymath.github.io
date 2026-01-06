@@ -1,0 +1,26 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#0a0a12"/>
+  <!-- Database cylinder -->
+  <g transform="translate(640, 280)">
+    <!-- Cylinder body -->
+    <ellipse cx="0" cy="-80" rx="120" ry="30" fill="#1a1a2e" stroke="#06b6d4" stroke-width="3"/>
+    <rect x="-120" y="-80" width="240" height="160" fill="#1a1a2e"/>
+    <line x1="-120" y1="-80" x2="-120" y2="80" stroke="#06b6d4" stroke-width="3"/>
+    <line x1="120" y1="-80" x2="120" y2="80" stroke="#06b6d4" stroke-width="3"/>
+    <ellipse cx="0" cy="80" rx="120" ry="30" fill="#1a1a2e" stroke="#06b6d4" stroke-width="3"/>
+    <!-- Data partitions -->
+    <ellipse cx="0" cy="-30" rx="120" ry="30" fill="none" stroke="#a855f7" stroke-width="1" stroke-dasharray="8,4"/>
+    <ellipse cx="0" cy="25" rx="120" ry="30" fill="none" stroke="#fbbf24" stroke-width="1" stroke-dasharray="8,4"/>
+    <!-- Data dots -->
+    <g fill="#22c55e" opacity="0.8">
+      <circle cx="-40" cy="-55" r="5"/>
+      <circle cx="20" cy="-60" r="5"/>
+      <circle cx="-60" cy="-5" r="5"/>
+      <circle cx="50" cy="-10" r="5"/>
+      <circle cx="-20" cy="50" r="5"/>
+      <circle cx="40" cy="45" r="5"/>
+    </g>
+  </g>
+  <text x="640" y="480" text-anchor="middle" font-family="system-ui, sans-serif" font-size="52" font-weight="700" fill="#e6edf3">Database</text>
+  <text x="640" y="530" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#8b949e">SQL • NoSQL • Storage</text>
+</svg>

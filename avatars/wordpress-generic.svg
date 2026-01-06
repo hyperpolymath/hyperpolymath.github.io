@@ -1,0 +1,10 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#0a0a12"/>
+  <!-- WordPress W stylized -->
+  <g transform="translate(640, 260)">
+    <circle r="120" fill="none" stroke="#06b6d4" stroke-width="4"/>
+    <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="140" font-weight="700" fill="#06b6d4">W</text>
+  </g>
+  <text x="640" y="480" text-anchor="middle" font-family="system-ui, sans-serif" font-size="48" font-weight="700" fill="#e6edf3">WordPress</text>
+  <text x="640" y="530" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#8b949e">Theme • Plugin • Integration</text>
+</svg>

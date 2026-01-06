@@ -1,0 +1,26 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#0a0a12"/>
+  <!-- Swiss army knife / multi-tool concept -->
+  <g transform="translate(640, 280)">
+    <!-- Central body -->
+    <rect x="-40" y="-100" width="80" height="200" rx="10" fill="none" stroke="#06b6d4" stroke-width="3"/>
+    <!-- Tools extending out -->
+    <g stroke-width="3" fill="none">
+      <line x1="-40" y1="-60" x2="-120" y2="-100" stroke="#fbbf24"/>
+      <line x1="-40" y1="-20" x2="-140" y2="-20" stroke="#a855f7"/>
+      <line x1="-40" y1="20" x2="-120" y2="60" stroke="#22c55e"/>
+      <line x1="40" y1="-40" x2="130" y2="-80" stroke="#f97316"/>
+      <line x1="40" y1="0" x2="140" y2="0" stroke="#06b6d4"/>
+      <line x1="40" y1="40" x2="130" y2="80" stroke="#a855f7"/>
+    </g>
+    <!-- Tool tips -->
+    <circle cx="-120" cy="-100" r="8" fill="#fbbf24"/>
+    <circle cx="-140" cy="-20" r="8" fill="#a855f7"/>
+    <circle cx="-120" cy="60" r="8" fill="#22c55e"/>
+    <circle cx="130" cy="-80" r="8" fill="#f97316"/>
+    <circle cx="140" cy="0" r="8" fill="#06b6d4"/>
+    <circle cx="130" cy="80" r="8" fill="#a855f7"/>
+  </g>
+  <text x="640" y="460" text-anchor="middle" font-family="system-ui, sans-serif" font-size="48" font-weight="700" fill="#e6edf3">Utility</text>
+  <text x="640" y="510" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#8b949e">Tools • Scripts • Helpers</text>
+</svg>

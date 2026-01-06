@@ -1,0 +1,25 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#0078d4"/>
+  <!-- Blue Screen of App - BSOD style -->
+  <g transform="translate(640, 280)">
+    <!-- Sad face -->
+    <text x="0" y="-40" text-anchor="middle" font-family="system-ui, sans-serif" font-size="120" fill="#e6edf3">:(</text>
+    <!-- Error text -->
+    <g font-family="system-ui, sans-serif" fill="#e6edf3" text-anchor="middle">
+      <text x="0" y="60" font-size="18">Your app ran into a problem and needs to restart.</text>
+      <text x="0" y="90" font-size="14" fill="#8ecae6">Just kidding - this is an error handling library!</text>
+    </g>
+    <!-- QR code placeholder -->
+    <rect x="150" y="-60" width="60" height="60" fill="#e6edf3" rx="4"/>
+    <g fill="#0078d4">
+      <rect x="155" y="-55" width="10" height="10"/>
+      <rect x="175" y="-55" width="10" height="10"/>
+      <rect x="195" y="-55" width="10" height="10"/>
+      <rect x="155" y="-35" width="10" height="10"/>
+      <rect x="175" y="-25" width="10" height="10"/>
+      <rect x="195" y="-15" width="10" height="10"/>
+    </g>
+  </g>
+  <text x="640" y="500" text-anchor="middle" font-family="system-ui, sans-serif" font-size="40" font-weight="700" fill="#e6edf3">blue-screen-of-app</text>
+  <text x="640" y="545" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#8ecae6">Friendly Error Handling Library</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#0a0a12"/>
+  <!-- Polyglot i18n - Multiple languages -->
+  <g transform="translate(640, 280)">
+    <!-- Globe outline -->
+    <circle cx="0" cy="0" r="100" fill="none" stroke="#06b6d4" stroke-width="2"/>
+    <ellipse cx="0" cy="0" rx="100" ry="40" fill="none" stroke="#06b6d4" stroke-width="1" opacity="0.5"/>
+    <ellipse cx="0" cy="0" rx="40" ry="100" fill="none" stroke="#06b6d4" stroke-width="1" opacity="0.5"/>
+    <!-- Language symbols orbiting -->
+    <g font-family="serif" font-size="28" text-anchor="middle">
+      <text x="-130" y="-60" fill="#fbbf24">A</text>
+      <text x="130" y="-60" fill="#a855f7">文</text>
+      <text x="-130" y="70" fill="#22c55e">ش</text>
+      <text x="130" y="70" fill="#06b6d4">Я</text>
+    </g>
+    <!-- i18n in center -->
+    <text x="0" y="10" text-anchor="middle" font-family="monospace" font-size="32" fill="#e6edf3">i18n</text>
+    <!-- Connection lines -->
+    <g stroke="#8b949e" stroke-width="1" stroke-dasharray="4,4" opacity="0.5">
+      <line x1="-100" y1="-50" x2="-110" y2="-55"/>
+      <line x1="100" y1="-50" x2="110" y2="-55"/>
+      <line x1="-100" y1="50" x2="-110" y2="55"/>
+      <line x1="100" y1="50" x2="110" y2="55"/>
+    </g>
+  </g>
+  <text x="640" y="470" text-anchor="middle" font-family="system-ui, sans-serif" font-size="52" font-weight="700" fill="#e6edf3">polyglot-i18n</text>
+  <text x="640" y="520" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#8b949e">Internationalization Framework</text>
+</svg>

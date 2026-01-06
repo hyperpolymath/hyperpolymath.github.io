@@ -1,0 +1,29 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#0a0a12"/>
+  <!-- Documentation -->
+  <g transform="translate(640, 280)">
+    <!-- Book -->
+    <path d="M-120,-100 L-120,100 Q0,80 0,100 L0,-100 Q0,-80 -120,-100" fill="#1a1a2e" stroke="#fbbf24" stroke-width="2"/>
+    <path d="M120,-100 L120,100 Q0,80 0,100 L0,-100 Q0,-80 120,-100" fill="#1a1a2e" stroke="#fbbf24" stroke-width="2"/>
+    <!-- Spine -->
+    <line x1="0" y1="-100" x2="0" y2="100" stroke="#fbbf24" stroke-width="3"/>
+    <!-- Text lines left page -->
+    <g stroke="#06b6d4" stroke-width="2" opacity="0.7">
+      <line x1="-100" y1="-60" x2="-20" y2="-60"/>
+      <line x1="-100" y1="-30" x2="-30" y2="-30"/>
+      <line x1="-100" y1="0" x2="-40" y2="0"/>
+      <line x1="-100" y1="30" x2="-25" y2="30"/>
+    </g>
+    <!-- Text lines right page -->
+    <g stroke="#a855f7" stroke-width="2" opacity="0.7">
+      <line x1="20" y1="-60" x2="100" y2="-60"/>
+      <line x1="20" y1="-30" x2="90" y2="-30"/>
+      <line x1="20" y1="0" x2="80" y2="0"/>
+      <line x1="20" y1="30" x2="95" y2="30"/>
+    </g>
+    <!-- Code block on right -->
+    <rect x="20" y="50" width="80" height="30" rx="4" fill="none" stroke="#22c55e" stroke-width="1"/>
+  </g>
+  <text x="640" y="480" text-anchor="middle" font-family="system-ui, sans-serif" font-size="52" font-weight="700" fill="#e6edf3">Docs</text>
+  <text x="640" y="530" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#8b949e">Documentation • Guides • API Refs</text>
+</svg>

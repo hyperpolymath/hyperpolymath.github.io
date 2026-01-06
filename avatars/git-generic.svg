@@ -1,0 +1,21 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#0a0a12"/>
+  <!-- Git branch visualization -->
+  <g transform="translate(640, 280)">
+    <!-- Main branch -->
+    <line x1="-200" y1="0" x2="200" y2="0" stroke="#22c55e" stroke-width="6"/>
+    <!-- Commits on main -->
+    <circle cx="-150" cy="0" r="15" fill="#22c55e"/>
+    <circle cx="-50" cy="0" r="15" fill="#22c55e"/>
+    <circle cx="50" cy="0" r="15" fill="#22c55e"/>
+    <circle cx="150" cy="0" r="15" fill="#22c55e"/>
+    <!-- Feature branch -->
+    <path d="M-50,0 Q-30,-60 0,-80 Q30,-60 50,0" fill="none" stroke="#a855f7" stroke-width="4"/>
+    <circle cx="0" cy="-80" r="12" fill="#a855f7"/>
+    <!-- Hotfix branch -->
+    <path d="M50,0 Q70,50 100,60 Q130,50 150,0" fill="none" stroke="#f97316" stroke-width="4"/>
+    <circle cx="100" cy="60" r="12" fill="#f97316"/>
+  </g>
+  <text x="640" y="460" text-anchor="middle" font-family="system-ui, sans-serif" font-size="48" font-weight="700" fill="#e6edf3">Git Tools</text>
+  <text x="640" y="510" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#8b949e">Version Control • Workflow • Management</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#0a0a12"/>
+  <!-- Czech File Knife - Swiss army knife for files -->
+  <g transform="translate(640, 280)">
+    <!-- Knife body -->
+    <rect x="-40" y="-100" width="80" height="200" rx="8" fill="#ef4444" stroke="#8b949e" stroke-width="2"/>
+    <!-- Tools extending -->
+    <g stroke-width="3" fill="none">
+      <!-- File tool -->
+      <path d="M-40,-60 L-100,-80 L-100,-50 L-60,-50" stroke="#06b6d4"/>
+      <!-- Scissors -->
+      <path d="M-40,0 L-80,20 M-40,0 L-80,-20" stroke="#fbbf24"/>
+      <!-- Magnifier -->
+      <circle cx="-100" cy="60" r="20" stroke="#22c55e"/>
+      <line x1="-40" y1="60" x2="-85" y2="60" stroke="#22c55e"/>
+    </g>
+    <!-- Cross emblem -->
+    <g fill="#e6edf3">
+      <rect x="-5" y="-30" width="10" height="60" rx="2"/>
+      <rect x="-20" y="-5" width="40" height="10" rx="2"/>
+    </g>
+    <!-- File icons floating -->
+    <g fill="none" stroke-width="2" opacity="0.6">
+      <rect x="80" y="-80" width="40" height="50" rx="4" stroke="#06b6d4"/>
+      <rect x="90" y="-20" width="40" height="50" rx="4" stroke="#a855f7"/>
+      <rect x="80" y="40" width="40" height="50" rx="4" stroke="#22c55e"/>
+    </g>
+  </g>
+  <text x="640" y="480" text-anchor="middle" font-family="system-ui, sans-serif" font-size="44" font-weight="700" fill="#e6edf3">czech-file-knife</text>
+  <text x="640" y="530" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#8b949e">Multi-Purpose File Operations</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#0a0a12"/>
+  <!-- Bunsenite - Bunsen burner / chemistry theme -->
+  <g transform="translate(640, 300)">
+    <!-- Burner base -->
+    <rect x="-60" y="60" width="120" height="30" rx="4" fill="#1a1a2e" stroke="#8b949e" stroke-width="2"/>
+    <!-- Burner tube -->
+    <rect x="-20" y="-60" width="40" height="120" fill="#1a1a2e" stroke="#8b949e" stroke-width="2"/>
+    <!-- Flame layers -->
+    <path d="M0,-60 Q-30,-100 -20,-130 Q-10,-160 0,-140 Q10,-160 20,-130 Q30,-100 0,-60" fill="none" stroke="#06b6d4" stroke-width="3"/>
+    <path d="M0,-60 Q-20,-90 -12,-110 Q-5,-130 0,-115 Q5,-130 12,-110 Q20,-90 0,-60" fill="none" stroke="#fbbf24" stroke-width="2"/>
+    <path d="M0,-60 Q-10,-75 -5,-85 Q0,-95 5,-85 Q10,-75 0,-60" fill="#fbbf24" opacity="0.8"/>
+    <!-- Nickel chemical symbol -->
+    <text x="100" y="0" font-family="serif" font-size="48" fill="#22c55e" opacity="0.7">Ni</text>
+  </g>
+  <text x="640" y="480" text-anchor="middle" font-family="system-ui, sans-serif" font-size="52" font-weight="700" fill="#e6edf3">bunsenite</text>
+  <text x="640" y="530" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#8b949e">Nickel Configuration Management</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#0a0a12"/>
+  <!-- asdfghj - Keyboard home row theme -->
+  <g transform="translate(640, 280)">
+    <!-- Keyboard keys -->
+    <g fill="#1a1a2e" stroke-width="2">
+      <rect x="-210" y="-40" width="60" height="80" rx="8" stroke="#06b6d4"/>
+      <rect x="-140" y="-40" width="60" height="80" rx="8" stroke="#a855f7"/>
+      <rect x="-70" y="-40" width="60" height="80" rx="8" stroke="#fbbf24"/>
+      <rect x="0" y="-40" width="60" height="80" rx="8" stroke="#22c55e"/>
+      <rect x="70" y="-40" width="60" height="80" rx="8" stroke="#06b6d4"/>
+      <rect x="140" y="-40" width="60" height="80" rx="8" stroke="#a855f7"/>
+    </g>
+    <!-- Key labels -->
+    <g font-family="system-ui, sans-serif" font-size="32" font-weight="700" text-anchor="middle">
+      <text x="-180" y="15" fill="#06b6d4">A</text>
+      <text x="-110" y="15" fill="#a855f7">S</text>
+      <text x="-40" y="15" fill="#fbbf24">D</text>
+      <text x="30" y="15" fill="#22c55e">F</text>
+      <text x="100" y="15" fill="#06b6d4">G</text>
+      <text x="170" y="15" fill="#a855f7">H</text>
+    </g>
+    <!-- Home row indicator bumps -->
+    <g fill="#fbbf24">
+      <rect x="-45" y="25" width="10" height="3" rx="1"/>
+      <rect x="95" y="25" width="10" height="3" rx="1"/>
+    </g>
+  </g>
+  <text x="640" y="480" text-anchor="middle" font-family="system-ui, sans-serif" font-size="52" font-weight="700" fill="#e6edf3">asdfghj</text>
+  <text x="640" y="530" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#8b949e">Keyboard-Driven Development Tools</text>
+</svg>

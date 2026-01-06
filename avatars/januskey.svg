@@ -1,0 +1,30 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#0a0a12"/>
+  <!-- Januskey - Two-faced key (Janus god) -->
+  <g transform="translate(640, 280)">
+    <!-- Two faces looking opposite directions -->
+    <g fill="none" stroke-width="2">
+      <!-- Left face profile -->
+      <path d="M-100,-60 Q-130,-40 -130,0 Q-130,40 -100,60 L-100,-60" stroke="#06b6d4"/>
+      <circle cx="-115" cy="-10" r="5" fill="#06b6d4"/>
+      <!-- Right face profile -->
+      <path d="M100,-60 Q130,-40 130,0 Q130,40 100,60 L100,-60" stroke="#a855f7"/>
+      <circle cx="115" cy="-10" r="5" fill="#a855f7"/>
+    </g>
+    <!-- Central key -->
+    <g stroke="#fbbf24" stroke-width="3" fill="none">
+      <!-- Key head -->
+      <circle cx="0" cy="-40" r="30"/>
+      <!-- Key shaft -->
+      <line x1="0" y1="-10" x2="0" y2="80"/>
+      <!-- Key teeth -->
+      <line x1="0" y1="40" x2="20" y2="40"/>
+      <line x1="0" y1="60" x2="15" y2="60"/>
+      <line x1="0" y1="80" x2="25" y2="80"/>
+    </g>
+    <!-- Keyhole in key head -->
+    <ellipse cx="0" cy="-40" rx="8" ry="12" fill="#fbbf24"/>
+  </g>
+  <text x="640" y="460" text-anchor="middle" font-family="system-ui, sans-serif" font-size="52" font-weight="700" fill="#e6edf3">januskey</text>
+  <text x="640" y="510" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#8b949e">Bidirectional Authentication Protocol</text>
+</svg>

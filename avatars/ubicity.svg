@@ -1,0 +1,31 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#0a0a12"/>
+  <!-- Ubicity - Ubiquitous presence -->
+  <g transform="translate(640, 280)">
+    <!-- Central node -->
+    <circle cx="0" cy="0" r="40" fill="#1a1a2e" stroke="#fbbf24" stroke-width="3"/>
+    <text x="0" y="8" text-anchor="middle" font-family="monospace" font-size="20" fill="#fbbf24">UBI</text>
+    <!-- Radiating presence nodes -->
+    <g fill="none" stroke-width="2">
+      <circle cx="0" cy="-100" r="20" stroke="#06b6d4"/>
+      <circle cx="87" cy="-50" r="20" stroke="#a855f7"/>
+      <circle cx="87" cy="50" r="20" stroke="#22c55e"/>
+      <circle cx="0" cy="100" r="20" stroke="#06b6d4"/>
+      <circle cx="-87" cy="50" r="20" stroke="#a855f7"/>
+      <circle cx="-87" cy="-50" r="20" stroke="#22c55e"/>
+    </g>
+    <!-- Connection lines -->
+    <g stroke="#8b949e" stroke-width="1" opacity="0.6">
+      <line x1="0" y1="-40" x2="0" y2="-80"/>
+      <line x1="35" y1="-20" x2="70" y2="-40"/>
+      <line x1="35" y1="20" x2="70" y2="40"/>
+      <line x1="0" y1="40" x2="0" y2="80"/>
+      <line x1="-35" y1="20" x2="-70" y2="40"/>
+      <line x1="-35" y1="-20" x2="-70" y2="-40"/>
+    </g>
+    <!-- Outer glow ring -->
+    <circle cx="0" cy="0" r="130" fill="none" stroke="#fbbf24" stroke-width="1" opacity="0.3" stroke-dasharray="8,8"/>
+  </g>
+  <text x="640" y="480" text-anchor="middle" font-family="system-ui, sans-serif" font-size="52" font-weight="700" fill="#e6edf3">ubicity</text>
+  <text x="640" y="530" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#8b949e">Ubiquitous Deployment Platform</text>
+</svg>

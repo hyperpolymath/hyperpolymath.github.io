@@ -1,0 +1,36 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#0a0a12"/>
+  <!-- Git Eco Bot - Green/eco git automation -->
+  <g transform="translate(640, 280)">
+    <!-- Robot head -->
+    <rect x="-80" y="-100" width="160" height="140" rx="20" fill="#1a1a2e" stroke="#22c55e" stroke-width="3"/>
+    <!-- Eyes (git branch symbols) -->
+    <g stroke="#06b6d4" stroke-width="3" fill="none">
+      <circle cx="-35" cy="-40" r="20"/>
+      <circle cx="35" cy="-40" r="20"/>
+      <!-- Branch lines in eyes -->
+      <line x1="-35" y1="-55" x2="-35" y2="-25"/>
+      <line x1="35" y1="-55" x2="35" y2="-25"/>
+    </g>
+    <!-- Smile -->
+    <path d="M-40,10 Q0,50 40,10" fill="none" stroke="#22c55e" stroke-width="3"/>
+    <!-- Leaf antenna -->
+    <g fill="#22c55e">
+      <line x1="0" y1="-100" x2="0" y2="-130" stroke="#22c55e" stroke-width="2"/>
+      <path d="M0,-130 Q-20,-150 0,-160 Q20,-150 0,-130"/>
+    </g>
+    <!-- Recycle symbol on forehead -->
+    <g transform="translate(0, -70)" stroke="#fbbf24" stroke-width="2" fill="none">
+      <path d="M0,-15 L10,5 L-10,5 Z"/>
+    </g>
+    <!-- Git branch decorations -->
+    <g stroke="#a855f7" stroke-width="2">
+      <circle cx="-120" cy="0" r="8" fill="#a855f7"/>
+      <line x1="-112" y1="0" x2="-80" y2="0"/>
+      <circle cx="120" cy="0" r="8" fill="#a855f7"/>
+      <line x1="80" y1="0" x2="112" y2="0"/>
+    </g>
+  </g>
+  <text x="640" y="480" text-anchor="middle" font-family="system-ui, sans-serif" font-size="52" font-weight="700" fill="#e6edf3">git-eco-bot</text>
+  <text x="640" y="530" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#8b949e">Sustainable Git Automation</text>
+</svg>

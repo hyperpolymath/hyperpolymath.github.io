@@ -1,0 +1,33 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#0a0a12"/>
+  <!-- Poly Observability MCP -->
+  <g transform="translate(640, 280)">
+    <!-- Eye shape (observability) -->
+    <ellipse cx="0" cy="0" rx="150" ry="80" fill="none" stroke="#06b6d4" stroke-width="3"/>
+    <!-- Iris -->
+    <circle cx="0" cy="0" r="50" fill="#1a1a2e" stroke="#a855f7" stroke-width="2"/>
+    <!-- Pupil with metrics -->
+    <circle cx="0" cy="0" r="25" fill="#a855f7"/>
+    <!-- Metrics lines around pupil -->
+    <g stroke="#22c55e" stroke-width="2">
+      <polyline points="-40,-20 -20,-10 0,-30 20,0 40,-15" fill="none"/>
+    </g>
+    <!-- Three pillars of observability -->
+    <g font-family="monospace" font-size="12" fill="#8b949e" text-anchor="middle">
+      <text x="-80" y="120">Logs</text>
+      <text x="0" y="120">Metrics</text>
+      <text x="80" y="120">Traces</text>
+    </g>
+    <!-- Connection lines -->
+    <g stroke="#8b949e" stroke-width="1" stroke-dasharray="4,4">
+      <line x1="-80" y1="100" x2="-40" y2="80"/>
+      <line x1="0" y1="100" x2="0" y2="80"/>
+      <line x1="80" y1="100" x2="40" y2="80"/>
+    </g>
+    <!-- MCP badge -->
+    <rect x="-25" y="-100" width="50" height="22" rx="4" fill="#a855f7"/>
+    <text x="0" y="-84" text-anchor="middle" font-family="monospace" font-size="12" fill="#e6edf3">MCP</text>
+  </g>
+  <text x="640" y="490" text-anchor="middle" font-family="system-ui, sans-serif" font-size="36" font-weight="700" fill="#e6edf3">poly-observability-mcp</text>
+  <text x="640" y="540" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#8b949e">Observability Protocol</text>
+</svg>

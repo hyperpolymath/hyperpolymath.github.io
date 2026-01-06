@@ -1,0 +1,19 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#0a0a12"/>
+  <!-- Archive / Storage -->
+  <g transform="translate(640, 280)">
+    <!-- Archive box -->
+    <rect x="-120" y="-80" width="240" height="160" rx="8" fill="#1a1a2e" stroke="#8b949e" stroke-width="3"/>
+    <!-- Lid -->
+    <rect x="-130" y="-100" width="260" height="30" rx="4" fill="none" stroke="#06b6d4" stroke-width="2"/>
+    <!-- File folders inside -->
+    <g fill="none" stroke-width="2">
+      <path d="M-80,-50 L-80,60 L-40,60 L-40,-40 L-60,-50 Z" stroke="#fbbf24"/>
+      <path d="M-30,-50 L-30,60 L10,60 L10,-40 L-10,-50 Z" stroke="#a855f7"/>
+      <path d="M20,-50 L20,60 L60,60 L60,-40 L40,-50 Z" stroke="#22c55e"/>
+      <path d="M70,-50 L70,60 L110,60 L110,-40 L90,-50 Z" stroke="#06b6d4"/>
+    </g>
+  </g>
+  <text x="640" y="460" text-anchor="middle" font-family="system-ui, sans-serif" font-size="52" font-weight="700" fill="#e6edf3">Archive</text>
+  <text x="640" y="510" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#8b949e">Preserved • Historical • Reference</text>
+</svg>

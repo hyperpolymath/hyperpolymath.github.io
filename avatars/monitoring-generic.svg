@@ -1,0 +1,20 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#0a0a12"/>
+  <!-- Monitoring / Observability -->
+  <g transform="translate(640, 280)">
+    <!-- Dashboard frame -->
+    <rect x="-180" y="-100" width="360" height="200" rx="10" fill="#1a1a2e" stroke="#06b6d4" stroke-width="2"/>
+    <!-- Line chart -->
+    <polyline points="-150,-50 -100,-20 -50,-60 0,-30 50,-70 100,-40 150,-55" fill="none" stroke="#22c55e" stroke-width="3"/>
+    <!-- Heartbeat/pulse line -->
+    <polyline points="-150,30 -100,30 -80,30 -70,-10 -60,60 -50,30 0,30 20,30 30,-20 40,50 50,30 100,30 150,30" fill="none" stroke="#ef4444" stroke-width="2"/>
+    <!-- Metrics -->
+    <g font-family="monospace" font-size="14">
+      <text x="-150" y="80" fill="#fbbf24">CPU: 45%</text>
+      <text x="-20" y="80" fill="#a855f7">MEM: 2.1G</text>
+      <text x="90" y="80" fill="#06b6d4">99.9%</text>
+    </g>
+  </g>
+  <text x="640" y="480" text-anchor="middle" font-family="system-ui, sans-serif" font-size="48" font-weight="700" fill="#e6edf3">Observability</text>
+  <text x="640" y="530" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#8b949e">Metrics • Logs • Traces</text>
+</svg>

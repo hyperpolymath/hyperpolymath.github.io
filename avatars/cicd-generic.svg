@@ -1,0 +1,28 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#0a0a12"/>
+  <g transform="translate(640, 280)">
+    <g fill="none" stroke-width="3">
+      <circle cx="-150" cy="0" r="35" stroke="#06b6d4"/>
+      <circle cx="-50" cy="0" r="35" stroke="#a855f7"/>
+      <circle cx="50" cy="0" r="35" stroke="#fbbf24"/>
+      <circle cx="150" cy="0" r="35" stroke="#22c55e"/>
+    </g>
+    <g font-family="monospace" font-size="12" fill="#8b949e" text-anchor="middle">
+      <text x="-150" y="5">Build</text>
+      <text x="-50" y="5">Test</text>
+      <text x="50" y="5">Stage</text>
+      <text x="150" y="5">Deploy</text>
+    </g>
+    <g stroke="#8b949e" stroke-width="2">
+      <line x1="-110" y1="0" x2="-90" y2="0"/>
+      <polygon points="-90,0 -100,-5 -100,5" fill="#8b949e"/>
+      <line x1="-10" y1="0" x2="10" y2="0"/>
+      <polygon points="10,0 0,-5 0,5" fill="#8b949e"/>
+      <line x1="90" y1="0" x2="110" y2="0"/>
+      <polygon points="110,0 100,-5 100,5" fill="#8b949e"/>
+    </g>
+    <path d="M-180,60 Q-220,60 -220,90 Q-220,120 -150,120 L150,120 Q220,120 220,90 Q220,60 180,60" fill="none" stroke="#a855f7" stroke-width="2" stroke-dasharray="4 4" opacity="0.5"/>
+  </g>
+  <text x="640" y="480" text-anchor="middle" font-family="sans-serif" font-size="52" font-weight="700" fill="#e6edf3">CI/CD</text>
+  <text x="640" y="530" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#8b949e">Continuous Integration and Deployment</text>
+</svg>

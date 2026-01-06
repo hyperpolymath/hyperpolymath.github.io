@@ -1,0 +1,23 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#0a0a12"/>
+  <!-- Scaffolding structure -->
+  <g transform="translate(640, 280)">
+    <!-- Vertical poles -->
+    <line x1="-120" y1="-120" x2="-120" y2="100" stroke="#fbbf24" stroke-width="4"/>
+    <line x1="0" y1="-120" x2="0" y2="100" stroke="#fbbf24" stroke-width="4"/>
+    <line x1="120" y1="-120" x2="120" y2="100" stroke="#fbbf24" stroke-width="4"/>
+    <!-- Horizontal beams -->
+    <line x1="-140" y1="-80" x2="140" y2="-80" stroke="#06b6d4" stroke-width="3"/>
+    <line x1="-140" y1="-20" x2="140" y2="-20" stroke="#06b6d4" stroke-width="3"/>
+    <line x1="-140" y1="40" x2="140" y2="40" stroke="#06b6d4" stroke-width="3"/>
+    <!-- Cross braces -->
+    <line x1="-120" y1="-80" x2="0" y2="-20" stroke="#a855f7" stroke-width="2" opacity="0.6"/>
+    <line x1="0" y1="-80" x2="-120" y2="-20" stroke="#a855f7" stroke-width="2" opacity="0.6"/>
+    <line x1="0" y1="-80" x2="120" y2="-20" stroke="#a855f7" stroke-width="2" opacity="0.6"/>
+    <line x1="120" y1="-80" x2="0" y2="-20" stroke="#a855f7" stroke-width="2" opacity="0.6"/>
+    <!-- Building being constructed -->
+    <rect x="-80" y="-60" width="160" height="80" rx="4" fill="none" stroke="#22c55e" stroke-width="2" stroke-dasharray="8,4"/>
+  </g>
+  <text x="640" y="480" text-anchor="middle" font-family="system-ui, sans-serif" font-size="52" font-weight="700" fill="#e6edf3">scaffoldia</text>
+  <text x="640" y="530" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#8b949e">Developer-Centered Repo Scaffolding Engine</text>
+</svg>

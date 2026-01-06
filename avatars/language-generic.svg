@@ -1,0 +1,14 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#0a0a12"/>
+  <!-- Code brackets -->
+  <g transform="translate(640, 280)">
+    <!-- Left bracket -->
+    <text x="-150" y="30" font-family="monospace" font-size="180" font-weight="300" fill="#06b6d4" opacity="0.8">{</text>
+    <!-- Right bracket -->
+    <text x="70" y="30" font-family="monospace" font-size="180" font-weight="300" fill="#a855f7" opacity="0.8">}</text>
+    <!-- Lambda symbol in center -->
+    <text x="0" y="20" text-anchor="middle" font-family="serif" font-size="100" fill="#fbbf24">λ</text>
+  </g>
+  <text x="640" y="480" text-anchor="middle" font-family="system-ui, sans-serif" font-size="48" font-weight="700" fill="#e6edf3">Programming Language</text>
+  <text x="640" y="530" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#8b949e">Compiler • Runtime • Tooling</text>
+</svg>

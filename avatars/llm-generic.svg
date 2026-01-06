@@ -1,0 +1,29 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#0a0a12"/>
+  <!-- LLM / AI brain with layers -->
+  <g transform="translate(640, 280)">
+    <!-- Neural layers -->
+    <g stroke="#a855f7" stroke-width="2" fill="none">
+      <ellipse cx="0" cy="0" rx="160" ry="100"/>
+      <ellipse cx="0" cy="0" rx="120" ry="75"/>
+      <ellipse cx="0" cy="0" rx="80" ry="50"/>
+      <ellipse cx="0" cy="0" rx="40" ry="25"/>
+    </g>
+    <!-- Activation nodes -->
+    <g fill="#06b6d4">
+      <circle cx="-100" cy="-40" r="8"/>
+      <circle cx="-60" cy="50" r="8"/>
+      <circle cx="40" cy="-60" r="8"/>
+      <circle cx="80" cy="30" r="8"/>
+      <circle cx="0" cy="0" r="12"/>
+    </g>
+    <!-- Data flow arrows -->
+    <g stroke="#fbbf24" stroke-width="2" fill="none">
+      <path d="M-180,0 L-160,0"/>
+      <path d="M160,0 L180,0"/>
+      <polygon points="180,0 170,-5 170,5" fill="#fbbf24"/>
+    </g>
+  </g>
+  <text x="640" y="460" text-anchor="middle" font-family="system-ui, sans-serif" font-size="52" font-weight="700" fill="#e6edf3">LLM</text>
+  <text x="640" y="510" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#8b949e">Large Language Model Tools</text>
+</svg>
