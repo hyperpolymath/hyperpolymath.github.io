@@ -1,0 +1,81 @@
+image:https://img.shields.io/badge/license-PMPL--1.0-blue.svg[License,link="https://github.com/hyperpolymath/palimpsest-license"]
+// SPDX-License-Identifier: PMPL-1.0
+= hyperpolymath.github.io
+
+:toc:
+:sectnums:
+
+// Badges
+image:https://img.shields.io/badge/RSR-Infrastructure-cd7f32[RSR Infrastructure]
+image:https://img.shields.io/badge/Phase-Maintenance-brightgreen[Phase]
+
+== Overview
+
+**The public portfolio site for the Hyperpolymath ecosystem.**
+
+This repository serves the static GitHub Pages site that indexes projects, surfaces
+status context, and hosts shared visual assets (avatars). It is designed as a minimal
+deployable surface with a single HTML entrypoint and a curated asset catalog.
+
+== Quick Start
+
+[source,bash]
+----
+# Preview locally
+xdg-open index.html
+----
+
+== What's Included
+
+[cols="1,3"]
+|===
+|File/Directory |Purpose
+
+|`index.html`
+|Single-page site entrypoint
+
+|`avatars/`
+|Project SVGs + helper scripts for asset management
+
+|`MAINTAINERS.adoc`
+|Ownership and maintenance notes
+
+|`LICENSE`
+|Palimpsest-MPL license text
+|===
+
+== Directory Structure
+
+[source]
+----
+hyperpolymath.github.io/
+├── avatars/            # Project SVGs + helper scripts
+├── index.html          # Main site
+├── MAINTAINERS.adoc    # Maintenance notes
+└── LICENSE             # PMPL-1.0 license
+----
+
+== Deployment
+
+This repository is intended for GitHub Pages:
+
+* Push to the default branch
+* Enable GitHub Pages for the repository
+* Serve from the repository root
+
+== Maintenance
+
+* Add new projects by updating `index.html` and adding an avatar in `avatars/`.
+* Keep the portfolio copy aligned with `register/REGISTER.md` in `palimpsest-license`.
+
+== RSR Compliance
+
+This repository is classified as **RSR Infrastructure**:
+
+* Single static page deployment
+* No build system required
+* Maintained asset catalog
+
+== License
+
+Palimpsest-MPL License v1.0 (PMPL-1.0)—see link:LICENSE[LICENSE].
