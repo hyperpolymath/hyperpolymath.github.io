@@ -23,7 +23,7 @@ These repos have custom-designed avatars:
 | flatracoon-netstack | flatracoon-netstack.svg |
 | echidna | echidna.svg |
 | echidnabot | echidnabot.svg |
-| gitvisor | gitvisor.svg |
+| git-hud | git-hud.svg |
 | laminar | laminar.svg |
 | scaffoldia | scaffoldia.svg |
 | llm-unify | llm-unify.svg |
