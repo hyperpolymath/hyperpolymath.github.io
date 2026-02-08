@@ -504,16 +504,16 @@
       <p>Building software where module interfaces, system boundaries, and integration points are first-class architectural artifacts — documented, checkable, and evolvable.</p>
       <div class="hero-stats">
         <div class="stat">
-          <div class="stat-value">60+</div>
-          <div class="stat-label">Projects</div>
+          <div class="stat-value">275+</div>
+          <div class="stat-label">Repositories</div>
         </div>
         <div class="stat">
-          <div class="stat-value">12+</div>
+          <div class="stat-value">50+</div>
           <div class="stat-label">Languages</div>
         </div>
         <div class="stat">
-          <div class="stat-value">MPL-2.0</div>
-          <div class="stat-label">+ Palimpsest</div>
+          <div class="stat-value">PMPL</div>
+          <div class="stat-label">Palimpsest License</div>
         </div>
       </div>
     </div>
@@ -521,108 +521,56 @@
 
   <nav>
     <div class="nav-container">
-      <a href="#mcp" class="nav-link">MCP Servers</a>
       <a href="#languages" class="nav-link">Languages</a>
+      <a href="#infrastructure" class="nav-link">Infrastructure</a>
       <a href="#devtools" class="nav-link">Dev Tools</a>
+      <a href="#security" class="nav-link">Security</a>
       <a href="#network" class="nav-link">Network</a>
-      <a href="#ssg" class="nav-link">Static Sites</a>
-      <a href="#zotero" class="nav-link">Zotero</a>
-      <a href="#wordpress" class="nav-link">WordPress</a>
+      <a href="#science" class="nav-link">Science</a>
       <a href="#standards" class="nav-link">Standards</a>
     </div>
   </nav>
 
   <main>
-    <!-- MCP Servers -->
-    <section class="category" id="mcp">
-      <div class="category-header">
-        <span class="category-icon">🤖</span>
-        <h2>MCP Servers</h2>
-        <span class="category-count">5</span>
-      </div>
-      <div class="projects">
-        <a href="https://github.com/hyperpolymath/claude-firefox-mcp" class="project-card featured">
-          <img src="avatars/claude-firefox-mcp.svg" alt="" class="project-avatar">
-          <div class="project-body">
-            <div class="project-header">
-              <span class="project-name">claude-firefox-mcp</span>
-              <span class="featured-badge">New</span>
-            </div>
-            <p class="project-desc">Claude Code MCP server for Firefox browser automation. Control Firefox from Claude Code CLI.</p>
-          </div>
-        </a>
-        <a href="https://github.com/hyperpolymath/poly-container-mcp" class="project-card featured">
-          <img src="avatars/poly-container-mcp.svg" alt="" class="project-avatar">
-          <div class="project-body">
-            <div class="project-header">
-              <span class="project-name">poly-container-mcp</span>
-              <span class="featured-badge">Featured</span>
-            </div>
-            <p class="project-desc">Multi-runtime container management MCP server supporting nerdctl, podman, and docker.</p>
-          </div>
-        </a>
-        <a href="https://github.com/hyperpolymath/poly-cloud-mcp" class="project-card">
-          <img src="avatars/mcp-generic.svg" alt="" class="project-avatar">
-          <div class="project-body">
-            <div class="project-header">
-              <span class="project-name">poly-cloud-mcp</span>
-            </div>
-            <p class="project-desc">Unified MCP server for multi-cloud provider management. Tools for AWS, GCP, Azure, and DigitalOcean.</p>
-          </div>
-        </a>
-        <a href="https://github.com/hyperpolymath/poly-k8s-mcp" class="project-card">
-          <img src="avatars/mcp-generic.svg" alt="" class="project-avatar">
-          <div class="project-body">
-            <div class="project-header">
-              <span class="project-name">poly-k8s-mcp</span>
-            </div>
-            <p class="project-desc">Unified MCP server for Kubernetes orchestration. Tools for kubectl, Helm, and Kustomize.</p>
-          </div>
-        </a>
-        <a href="https://github.com/hyperpolymath/claude-mozilla-extension" class="project-card">
-          <img src="avatars/mcp-generic.svg" alt="" class="project-avatar">
-          <div class="project-body">
-            <div class="project-header">
-              <span class="project-name">claude-mozilla-extension</span>
-            </div>
-            <p class="project-desc">Claude AI assistant extension for Mozilla products (Firefox, Thunderbird, SeaMonkey) - MV2/MV3 compatible.</p>
-          </div>
-        </a>
-      </div>
-    </section>
-
     <!-- Languages & Compilers -->
     <section class="category" id="languages">
       <div class="category-header">
         <span class="category-icon">🔤</span>
         <h2>Languages & Compilers</h2>
-        <span class="category-count">4</span>
+        <span class="category-count">5</span>
       </div>
       <div class="projects">
-        <a href="https://github.com/hyperpolymath/my-lang" class="project-card featured">
-          <img src="avatars/my-lang.svg" alt="" class="project-avatar">
+        <a href="https://github.com/hyperpolymath/nextgen-languages" class="project-card featured">
           <div class="project-body">
             <div class="project-header">
-              <span class="project-name">my-lang</span>
-              <span class="featured-badge">Featured</span>
+              <span class="project-name">nextgen-languages</span>
+              <span class="featured-badge">Monorepo</span>
             </div>
-            <p class="project-desc">My is a modern, AI-first programming language with progressive complexity. Start simple, grow into expressive power.</p>
+            <p class="project-desc">Three original programming languages: WokeLang (awareness-focused), Eclexia (adaptive), and My-Lang (AI-first progressive complexity).</p>
           </div>
         </a>
-        <a href="https://github.com/hyperpolymath/wokelang" class="project-card">
+        <a href="https://github.com/hyperpolymath/affinescript" class="project-card">
           <div class="project-body">
             <div class="project-header">
-              <span class="project-name">wokelang</span>
+              <span class="project-name">affinescript</span>
             </div>
-            <p class="project-desc">Awareness-focused programming language for conscious computing.</p>
+            <p class="project-desc">OCaml-based programming language with affine types and formal verification.</p>
           </div>
         </a>
-        <a href="https://github.com/hyperpolymath/rescript-tauri" class="project-card">
+        <a href="https://github.com/hyperpolymath/oblibeny" class="project-card">
           <div class="project-body">
             <div class="project-header">
-              <span class="project-name">rescript-tauri</span>
+              <span class="project-name">oblibeny</span>
             </div>
-            <p class="project-desc">ReScript bindings for Tauri 2.0 - Build native desktop and mobile apps with type safety.</p>
+            <p class="project-desc">Privacy-preserving systems language with OCaml compiler, Rust transpiler, and Zig FFI package manager.</p>
+          </div>
+        </a>
+        <a href="https://github.com/hyperpolymath/language-bridges" class="project-card">
+          <div class="project-body">
+            <div class="project-header">
+              <span class="project-name">language-bridges</span>
+            </div>
+            <p class="project-desc">FFI bridges between 15 languages via Zig, implementing the ABI/FFI Universal Standard (Idris2 + Zig).</p>
           </div>
         </a>
         <a href="https://github.com/hyperpolymath/raze-tui" class="project-card">
@@ -636,62 +584,37 @@
       </div>
     </section>
 
-    <!-- Developer Tools -->
-    <section class="category" id="devtools">
+    <!-- Infrastructure -->
+    <section class="category" id="infrastructure">
       <div class="category-header">
-        <span class="category-icon">🛠️</span>
-        <h2>Developer Tools</h2>
-        <span class="category-count">8</span>
+        <span class="category-icon">🏗️</span>
+        <h2>Infrastructure</h2>
+        <span class="category-count">4</span>
       </div>
       <div class="projects">
-        <a href="https://github.com/hyperpolymath/seambot" class="project-card featured">
-          <img src="avatars/seambot.svg" alt="" class="project-avatar">
+        <a href="https://github.com/hyperpolymath/polystack" class="project-card featured">
           <div class="project-body">
             <div class="project-header">
-              <span class="project-name">seambot</span>
-              <span class="featured-badge">Featured</span>
+              <span class="project-name">polystack</span>
+              <span class="featured-badge">Monorepo</span>
             </div>
-            <p class="project-desc">Seam hygiene auditor - tracks, enforces, and detects drift in architectural boundaries.</p>
+            <p class="project-desc">Unified polyglot tooling: cloud, container, db, git, iac, k8s, observability, orchestrator-lsp, proof, queue, secret, and SSG.</p>
           </div>
         </a>
-        <a href="https://github.com/hyperpolymath/git-seo" class="project-card">
+        <a href="https://github.com/hyperpolymath/reposystem" class="project-card">
           <div class="project-body">
             <div class="project-header">
-              <span class="project-name">git-seo</span>
+              <span class="project-name">reposystem</span>
             </div>
-            <p class="project-desc">Make your Git repositories discoverable with SEO optimization tools.</p>
+            <p class="project-desc">Repository management system: git-hud dashboard, forge synchronization, and repo lifecycle tools.</p>
           </div>
         </a>
-        <a href="https://github.com/hyperpolymath/rhodibot" class="project-card">
+        <a href="https://github.com/hyperpolymath/nickel-augmentation" class="project-card">
           <div class="project-body">
             <div class="project-header">
-              <span class="project-name">rhodibot</span>
+              <span class="project-name">nickel-augmentation</span>
             </div>
-            <p class="project-desc">RSR compliance bot for repository management and standard enforcement.</p>
-          </div>
-        </a>
-        <a href="https://github.com/hyperpolymath/git-rsr-certified" class="project-card">
-          <div class="project-body">
-            <div class="project-header">
-              <span class="project-name">git-rsr-certified</span>
-            </div>
-            <p class="project-desc">Universal Rhodium Standard Repository Compliance Engine.</p>
-          </div>
-        </a>
-        <a href="https://github.com/hyperpolymath/cicd-hyper-a" class="project-card">
-          <div class="project-body">
-            <div class="project-header">
-              <span class="project-name">cicd-hyper-a</span>
-            </div>
-            <p class="project-desc">Reusable CI/CD templates with optional SaltStack integration.</p>
-          </div>
-        </a>
-        <a href="https://github.com/hyperpolymath/nickel-config-reporter" class="project-card">
-          <div class="project-body">
-            <div class="project-header">
-              <span class="project-name">nickel-config-reporter</span>
-            </div>
-            <p class="project-desc">Ingests config files, clones to Nickel format, emits AsciiDoc audit reports.</p>
+            <p class="project-desc">Nickel configuration language tools: config reporter, augmented templates, and audit reporting.</p>
           </div>
         </a>
         <a href="https://github.com/hyperpolymath/immutable-linux-auditor" class="project-card">
@@ -699,7 +622,51 @@
             <div class="project-header">
               <span class="project-name">immutable-linux-auditor</span>
             </div>
-            <p class="project-desc">Audit tool for immutable Linux distributions.</p>
+            <p class="project-desc">Audit tool for immutable Linux distributions (Fedora Kinoite, Silverblue, NixOS).</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Developer Tools -->
+    <section class="category" id="devtools">
+      <div class="category-header">
+        <span class="category-icon">🛠️</span>
+        <h2>Developer Tools</h2>
+        <span class="category-count">6</span>
+      </div>
+      <div class="projects">
+        <a href="https://github.com/hyperpolymath/gitbot-fleet" class="project-card featured">
+          <div class="project-body">
+            <div class="project-header">
+              <span class="project-name">gitbot-fleet</span>
+              <span class="featured-badge">Featured</span>
+            </div>
+            <p class="project-desc">Bot orchestration fleet: rhodibot, echidnabot, sustainabot, glambot, seambot - automated repo management.</p>
+          </div>
+        </a>
+        <a href="https://github.com/hyperpolymath/git-seo" class="project-card">
+          <div class="project-body">
+            <div class="project-header">
+              <span class="project-name">git-seo</span>
+            </div>
+            <p class="project-desc">Make your Git repositories discoverable with SEO optimization tools. Julia CLI, 26 tests passing.</p>
+          </div>
+        </a>
+        <a href="https://github.com/hyperpolymath/seamstress" class="project-card">
+          <div class="project-body">
+            <div class="project-header">
+              <span class="project-name">seamstress</span>
+            </div>
+            <p class="project-desc">Architectural seams as first-class artifacts - documented, checkable, evolvable boundaries.</p>
+          </div>
+        </a>
+        <a href="https://github.com/hyperpolymath/fogbinder" class="project-card">
+          <div class="project-body">
+            <div class="project-header">
+              <span class="project-name">fogbinder</span>
+            </div>
+            <p class="project-desc">Static site binder with RSR compliance and multi-format output.</p>
           </div>
         </a>
         <a href="https://github.com/hyperpolymath/techstack-filterlist" class="project-card">
@@ -707,28 +674,79 @@
             <div class="project-header">
               <span class="project-name">techstack-filterlist</span>
             </div>
-            <p class="project-desc">Tech stack whitelist/blacklist tool for template repositories.</p>
+            <p class="project-desc">Tech stack whitelist/blacklist tool for enforcing language and framework policies.</p>
+          </div>
+        </a>
+        <a href="https://github.com/hyperpolymath/asdf-augmenters" class="project-card">
+          <div class="project-body">
+            <div class="project-header">
+              <span class="project-name">asdf-augmenters</span>
+            </div>
+            <p class="project-desc">Meta-tools enhancing the asdf version manager: acceleration middleware, security plugin, control tower.</p>
           </div>
         </a>
       </div>
     </section>
 
-    <!-- Network & Infrastructure -->
+    <!-- Security -->
+    <section class="category" id="security">
+      <div class="category-header">
+        <span class="category-icon">🔒</span>
+        <h2>Security</h2>
+        <span class="category-count">3</span>
+      </div>
+      <div class="projects">
+        <a href="https://github.com/hyperpolymath/hypatia" class="project-card featured">
+          <div class="project-body">
+            <div class="project-header">
+              <span class="project-name">hypatia</span>
+              <span class="featured-badge">Core</span>
+            </div>
+            <p class="project-desc">Neurosymbolic CI/CD intelligence engine. Security scanning with formal verification guarantees.</p>
+          </div>
+        </a>
+        <a href="https://github.com/hyperpolymath/mcp-repo-guardian" class="project-card">
+          <div class="project-body">
+            <div class="project-header">
+              <span class="project-name">mcp-repo-guardian</span>
+            </div>
+            <p class="project-desc">MCP server enforcing the AI Gatekeeper Protocol. Prevents structural drift across all repos.</p>
+          </div>
+        </a>
+        <a href="https://github.com/hyperpolymath/verified-container-spec" class="project-card">
+          <div class="project-body">
+            <div class="project-header">
+              <span class="project-name">verified-container-spec</span>
+            </div>
+            <p class="project-desc">Attestation and verification protocol for supply-chain-verified containers.</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Network -->
     <section class="category" id="network">
       <div class="category-header">
         <span class="category-icon">🌐</span>
-        <h2>Network & Infrastructure</h2>
-        <span class="category-count">7</span>
+        <h2>Network</h2>
+        <span class="category-count">5</span>
       </div>
       <div class="projects">
-        <a href="https://github.com/hyperpolymath/flatracoon-netstack" class="project-card featured">
-          <img src="avatars/flatracoon-netstack.svg" alt="" class="project-avatar">
+        <a href="https://github.com/hyperpolymath/ipv6-tools" class="project-card featured">
           <div class="project-body">
             <div class="project-header">
-              <span class="project-name">flatracoon-netstack</span>
-              <span class="featured-badge">Featured</span>
+              <span class="project-name">ipv6-tools</span>
+              <span class="featured-badge">Monorepo</span>
             </div>
-            <p class="project-desc">Modular, declarative network stack integrating Twingate, ZeroTier, and IPFS.</p>
+            <p class="project-desc">IPv6 enforcement, site auditing, and ingress tools consolidated from 5 repositories.</p>
+          </div>
+        </a>
+        <a href="https://github.com/hyperpolymath/network-dashboard" class="project-card">
+          <div class="project-body">
+            <div class="project-header">
+              <span class="project-name">network-dashboard</span>
+            </div>
+            <p class="project-desc">Monitoring suite for Twingate, ZeroTier, IPFS, IPv6 ingress, and network health.</p>
           </div>
         </a>
         <a href="https://github.com/hyperpolymath/zerotier-k8s-link" class="project-card">
@@ -747,14 +765,6 @@
             <p class="project-desc">Private BGP routing, ASN allocation, route maps, and backbone simulation.</p>
           </div>
         </a>
-        <a href="https://github.com/hyperpolymath/ipv6-site-enforcer" class="project-card">
-          <div class="project-body">
-            <div class="project-header">
-              <span class="project-name">ipv6-site-enforcer</span>
-            </div>
-            <p class="project-desc">Tools and configurations to enforce IPv6-only ingress and service routing.</p>
-          </div>
-        </a>
         <a href="https://github.com/hyperpolymath/ipfs-overlay" class="project-card">
           <div class="project-body">
             <div class="project-header">
@@ -763,167 +773,39 @@
             <p class="project-desc">IPFS node deployment with encrypted overlay transport integration.</p>
           </div>
         </a>
-        <a href="https://github.com/hyperpolymath/network-dashboard" class="project-card">
-          <div class="project-body">
-            <div class="project-header">
-              <span class="project-name">network-dashboard</span>
-            </div>
-            <p class="project-desc">Monitoring suite for Twingate, ZeroTier, IPFS, IPv6 ingress, and network health.</p>
-          </div>
-        </a>
-        <a href="https://github.com/hyperpolymath/verified-container-spec" class="project-card">
-          <div class="project-body">
-            <div class="project-header">
-              <span class="project-name">verified-container-spec</span>
-            </div>
-            <p class="project-desc">Attestation and verification protocol for supply-chain-verified containers.</p>
-          </div>
-        </a>
       </div>
     </section>
 
-    <!-- Static Site Generators -->
-    <section class="category" id="ssg">
+    <!-- Science -->
+    <section class="category" id="science">
       <div class="category-header">
-        <span class="category-icon">📄</span>
-        <h2>Static Site Generators</h2>
-        <span class="category-count">4</span>
+        <span class="category-icon">🔬</span>
+        <h2>Science</h2>
+        <span class="category-count">3</span>
       </div>
       <div class="projects">
-        <a href="https://github.com/hyperpolymath/poly-ssg" class="project-card featured">
-          <img src="avatars/poly-ssg.svg" alt="" class="project-avatar">
+        <a href="https://github.com/hyperpolymath/Cliodynamics.jl" class="project-card">
           <div class="project-body">
             <div class="project-header">
-              <span class="project-name">poly-ssg</span>
-              <span class="featured-badge">Featured</span>
+              <span class="project-name">Cliodynamics.jl</span>
             </div>
-            <p class="project-desc">Polyglot static site generator framework. One contract, many languages, unique paradigmatic strengths.</p>
+            <p class="project-desc">Mathematical models of historical dynamics based on Peter Turchin's work. Julia library with secular cycles and elite overproduction.</p>
           </div>
         </a>
-        <a href="https://github.com/hyperpolymath/zigzag-ssg" class="project-card">
+        <a href="https://github.com/hyperpolymath/Cliometrics.jl" class="project-card">
           <div class="project-body">
             <div class="project-header">
-              <span class="project-name">zigzag-ssg</span>
+              <span class="project-name">Cliometrics.jl</span>
             </div>
-            <p class="project-desc">High-performance static site generator in Zig. Zero-overhead abstractions.</p>
+            <p class="project-desc">Quantitative economic history analysis in Julia. Growth decomposition, convergence analysis, institutional quality indices.</p>
           </div>
         </a>
-        <a href="https://github.com/hyperpolymath/warp-ssg" class="project-card">
+        <a href="https://github.com/hyperpolymath/Cladistics.jl" class="project-card">
           <div class="project-body">
             <div class="project-header">
-              <span class="project-name">warp-ssg</span>
+              <span class="project-name">Cladistics.jl</span>
             </div>
-            <p class="project-desc">The modern concatenative engine - a Factor-based SSG. No dilithium crystals required.</p>
-          </div>
-        </a>
-        <a href="https://github.com/hyperpolymath/fogbinder" class="project-card">
-          <div class="project-body">
-            <div class="project-header">
-              <span class="project-name">fogbinder</span>
-            </div>
-            <p class="project-desc">Static site binder with RSR compliance.</p>
-          </div>
-        </a>
-      </div>
-    </section>
-
-    <!-- Zotero Ecosystem -->
-    <section class="category" id="zotero">
-      <div class="category-header">
-        <span class="category-icon">📚</span>
-        <h2>Zotero Ecosystem</h2>
-        <span class="category-count">6</span>
-      </div>
-      <div class="projects">
-        <a href="https://github.com/hyperpolymath/zotero-nesy" class="project-card">
-          <div class="project-body">
-            <div class="project-header">
-              <span class="project-name">zotero-nesy</span>
-            </div>
-            <p class="project-desc">"What can be said at all can be said clearly." — Wittgenstein</p>
-          </div>
-        </a>
-        <a href="https://github.com/hyperpolymath/zotero-voyant-export" class="project-card">
-          <div class="project-body">
-            <div class="project-header">
-              <span class="project-name">zotero-voyant-export</span>
-            </div>
-            <p class="project-desc">Export your Zotero collections to Voyant for text analysis.</p>
-          </div>
-        </a>
-        <a href="https://github.com/hyperpolymath/zotero-rescript-templater" class="project-card">
-          <div class="project-body">
-            <div class="project-header">
-              <span class="project-name">zotero-rescript-templater</span>
-            </div>
-            <p class="project-desc">Sophisticated scaffolding system for Zotero plugins with template interpolation.</p>
-          </div>
-        </a>
-        <a href="https://github.com/hyperpolymath/zoterho" class="project-card">
-          <div class="project-body">
-            <div class="project-header">
-              <span class="project-name">zoterho</span>
-            </div>
-            <p class="project-desc">Zotero workflow and research tools.</p>
-          </div>
-        </a>
-        <a href="https://github.com/hyperpolymath/zoterho-template" class="project-card">
-          <div class="project-body">
-            <div class="project-header">
-              <span class="project-name">zoterho-template</span>
-            </div>
-            <p class="project-desc">Zotero Rhodium Template (uppercase variant).</p>
-          </div>
-        </a>
-        <a href="https://github.com/hyperpolymath/zotpress" class="project-card">
-          <div class="project-body">
-            <div class="project-header">
-              <span class="project-name">zotpress</span>
-            </div>
-            <p class="project-desc">Zotero to WordPress integration - RSR certified plugin for academic citations.</p>
-          </div>
-        </a>
-      </div>
-    </section>
-
-    <!-- WordPress -->
-    <section class="category" id="wordpress">
-      <div class="category-header">
-        <span class="category-icon">🎨</span>
-        <h2>WordPress</h2>
-        <span class="category-count">4</span>
-      </div>
-      <div class="projects">
-        <a href="https://github.com/hyperpolymath/sinople-theme" class="project-card">
-          <div class="project-body">
-            <div class="project-header">
-              <span class="project-name">sinople-theme</span>
-            </div>
-            <p class="project-desc">Alt-journal WordPress theme with WCAG 2.3 AAA compliance, IndieWeb integration, and ARIA-rich semantics.</p>
-          </div>
-        </a>
-        <a href="https://github.com/hyperpolymath/wp-sinople-theme" class="project-card">
-          <div class="project-body">
-            <div class="project-header">
-              <span class="project-name">wp-sinople-theme</span>
-            </div>
-            <p class="project-desc">Modern WordPress theme with ReScript, Deno, and WASM for semantic web technologies.</p>
-          </div>
-        </a>
-        <a href="https://github.com/hyperpolymath/wp-praxis" class="project-card">
-          <div class="project-body">
-            <div class="project-header">
-              <span class="project-name">wp-praxis</span>
-            </div>
-            <p class="project-desc">Polyglot meta-programming framework for WordPress automation.</p>
-          </div>
-        </a>
-        <a href="https://github.com/hyperpolymath/wp-plugin-conflict-mapper" class="project-card">
-          <div class="project-body">
-            <div class="project-header">
-              <span class="project-name">wp-plugin-conflict-mapper</span>
-            </div>
-            <p class="project-desc">WordPress plugin conflict detection and mapping.</p>
+            <p class="project-desc">Phylogenetic analysis in Julia. UPGMA, neighbor-joining, maximum parsimony, bootstrap support, Newick I/O.</p>
           </div>
         </a>
       </div>
@@ -933,28 +815,25 @@
     <section class="category" id="standards">
       <div class="category-header">
         <span class="category-icon">📋</span>
-        <h2>Standards & Frameworks</h2>
-        <span class="category-count">6</span>
+        <h2>Standards & Social Tech</h2>
+        <span class="category-count">5</span>
       </div>
       <div class="projects">
         <a href="https://github.com/hyperpolymath/rhodium-standard-repositories" class="project-card featured">
-          <img src="avatars/rhodium-standard.svg" alt="" class="project-avatar">
           <div class="project-body">
             <div class="project-header">
               <span class="project-name">rhodium-standard-repositories</span>
               <span class="featured-badge">Core</span>
             </div>
-            <p class="project-desc">The Rhodium Standard for repository quality and compliance.</p>
+            <p class="project-desc">The RSR 2026 Standard for repository quality, governance, and compliance across 275+ repos.</p>
           </div>
         </a>
-        <a href="https://github.com/hyperpolymath/seamstress" class="project-card featured">
-          <img src="avatars/seamstress.svg" alt="" class="project-avatar">
+        <a href="https://github.com/hyperpolymath/contractiles" class="project-card">
           <div class="project-body">
             <div class="project-header">
-              <span class="project-name">seamstress</span>
-              <span class="featured-badge">Core</span>
+              <span class="project-name">contractiles</span>
             </div>
-            <p class="project-desc">Architectural seams as first-class artifacts - documented, checkable, evolvable boundaries.</p>
+            <p class="project-desc">Executable contracts framework with dust, lust, and trust CLI executors.</p>
           </div>
         </a>
         <a href="https://github.com/hyperpolymath/maa-framework" class="project-card">
@@ -962,15 +841,7 @@
             <div class="project-header">
               <span class="project-name">maa-framework</span>
             </div>
-            <p class="project-desc">Mutually Assured Accountability Framework - hub for MAA, Oblíbený, and Aletheia.</p>
-          </div>
-        </a>
-        <a href="https://github.com/hyperpolymath/meta-scm" class="project-card">
-          <div class="project-body">
-            <div class="project-header">
-              <span class="project-name">meta-scm</span>
-            </div>
-            <p class="project-desc">Machine-readable Engineering and Technical Architecture format specification.</p>
+            <p class="project-desc">Mutually Assured Accountability Framework for transparent governance.</p>
           </div>
         </a>
         <a href="https://github.com/hyperpolymath/union-policy-parser" class="project-card">
@@ -986,7 +857,7 @@
             <div class="project-header">
               <span class="project-name">well-known-ecosystem</span>
             </div>
-            <p class="project-desc">Well-known URI ecosystem management.</p>
+            <p class="project-desc">Well-known URI ecosystem management and discovery protocol.</p>
           </div>
         </a>
       </div>
@@ -1000,7 +871,7 @@
       <a href="https://bitbucket.org/hyperpolymath">Bitbucket</a>
     </p>
     <p style="margin-top: 12px; font-size: 0.875rem;">
-      All projects licensed under <a href="https://opensource.org/license/mpl-2-0">MPL-2.0</a> + <a href="https://github.com/hyperpolymath/palimpsest-license">Palimpsest</a> unless otherwise noted
+      All projects licensed under <a href="https://github.com/hyperpolymath/palimpsest-license">PMPL-1.0-or-later</a> (Palimpsest License) unless otherwise noted
     </p>
   </footer>
 </body>
