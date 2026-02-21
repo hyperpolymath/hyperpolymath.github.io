@@ -79,3 +79,8 @@ This repository is classified as **RSR Infrastructure**:
 == License
 
 Palimpsest-MPL License v1.0 (PMPL-1.0)—see link:LICENSE[LICENSE].
+
+
+== Architecture
+
+See link:TOPOLOGY.md[TOPOLOGY.md] for a visual architecture map and completion dashboard.
