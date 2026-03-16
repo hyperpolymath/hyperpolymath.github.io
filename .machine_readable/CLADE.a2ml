@@ -1,0 +1,26 @@
+# SPDX-License-Identifier: PMPL-1.0-or-later
+# Clade declaration — part of the gv-clade-index registry
+# See: https://github.com/hyperpolymath/gv-clade-index
+
+[identity]
+uuid = "b6147e77-ec99-5674-b0e2-88639066508e"
+primary-forge = "github"
+primary-owner = "hyperpolymath"
+canonical-name = "hyperpolymath.github.io"
+prefixed-name = "gv-hyperpolymath.github.io"
+
+[clade]
+primary = "gv"
+secondary = ["ap"]
+assigned = "2026-03-16"
+rationale = ""
+
+[forges]
+github = "hyperpolymath/hyperpolymath.github.io"
+gitlab = "hyperpolymath/hyperpolymath.github.io"
+bitbucket = "hyperpolymath/hyperpolymath.github.io"
+
+[lineage]
+type = "standalone"
+parent = "Public portfolio — will become ReScript/WASM portal"
+born = "2026-03-16"
