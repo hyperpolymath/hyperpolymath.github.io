@@ -9,14 +9,18 @@ on:
     - cron: '0 6 * * 1'  # Weekly on Monday
   workflow_dispatch:
 
-permissions: read-all
+permissions:
+  security-events: write
+  id-token: write
+  contents: read
 
 jobs:
   scorecard:
     runs-on: ubuntu-latest
     permissions:
       security-events: write
-      id-token: write  # For OIDC
+      id-token: write
+      contents: read
     steps:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
@@ -52,6 +56,8 @@ jobs:
   # Check specific high-priority items
   check-critical:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
 
@@ -64,8 +70,8 @@ jobs:
 
       - name: Check for pinned dependencies
         run: |
-          # Check workflows for unpinned actions
-          unpinned=$(grep -r "uses:.*@v[0-9]" .github/workflows/*.yml 2>/dev/null | grep -v "#" | head -5 || true)
+          # Check workflows for unpinned actions - using anchored regex to avoid self-match
+          unpinned=$(grep -rE "^[[:space:]]+uses:.*@v[0-9]" .github/workflows/*.yml 2>/dev/null | grep -v "#" | head -5 || true)
           if [ -n "$unpinned" ]; then
             echo "::warning::Found unpinned actions:"
             echo "$unpinned"
