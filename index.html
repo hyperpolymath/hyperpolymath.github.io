@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hyperpolymath - Project Portfolio</title>
-  <meta name="description" content="Open source projects spanning languages, developer tools, MCP servers, and infrastructure">
+  <meta name="description" content="Formally verified software, neurosymbolic AI, original programming languages, and developer infrastructure. 20+ arcvix papers explaining the approach.">
   <link rel="canonical" href="https://hyperpolymath.github.io/">
   <style>
     :root {
@@ -498,18 +498,22 @@
     <div class="seam-node"></div>
 
     <div class="hero-content">
-      <div class="hero-tagline">Architectural Seam Engineering</div>
+      <div class="hero-tagline">Formal Verification &middot; Neurosymbolic AI &middot; Language Design</div>
       <h1>Hyperpolymath</h1>
-      <div class="hero-subtitle">Where Boundaries Become Features</div>
-      <p>Building software where module interfaces, system boundaries, and integration points are first-class architectural artifacts — documented, checkable, and evolvable.</p>
+      <div class="hero-subtitle">Proving Software Correct, Then Building On It</div>
+      <p>Dependent types (Idris2) for provable correctness. Neurosymbolic AI (ECHIDNA) for proof synthesis. Original programming languages exploring consent, linearity, and reversibility. All connected through a universal ABI/FFI standard.</p>
       <div class="hero-stats">
         <div class="stat">
-          <div class="stat-value">275+</div>
+          <div class="stat-value">300+</div>
           <div class="stat-label">Repositories</div>
         </div>
         <div class="stat">
-          <div class="stat-value">50+</div>
-          <div class="stat-label">Languages</div>
+          <div class="stat-value">20+</div>
+          <div class="stat-label">Arcvix Papers</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value">98</div>
+          <div class="stat-label">Verified Protocols</div>
         </div>
         <div class="stat">
           <div class="stat-value">PMPL</div>
@@ -519,59 +523,162 @@
     </div>
   </section>
 
-  <!-- Supersession notice -->
-  <div style="background: linear-gradient(90deg, #1a1a2e, #16213e); border: 1px solid #30363d; border-radius: 8px; margin: 16px auto; max-width: 800px; padding: 16px 24px; text-align: center; font-size: 0.95rem; color: #8b949e;">
-    <strong style="color: #fbbf24;">Note:</strong>
-    This static portfolio is being superseded by the
-    <strong style="color: #58a6ff;">Clade System Portal</strong> &mdash;
-    a dynamic, taxonomy-driven project explorer backed by VeriSimDB.
-    This page remains as a read-only archive.
+  <!-- Arcvix papers & feedback notice -->
+  <div style="background: linear-gradient(90deg, #1a1a2e, #16213e); border: 1px solid #30363d; border-radius: 8px; margin: 16px auto; max-width: 900px; padding: 20px 28px; font-size: 0.95rem; color: #c9d1d9;">
+    <strong style="color: #06b6d4;">Arcvix papers in many repos</strong> &mdash;
+    Many of these projects contain arcvix-style papers (look for <code style="background: #21262d; padding: 2px 6px; border-radius: 4px; font-size: 0.85rem;">arcvix-*.tex</code> files) that explain the design logic, the research questions, and what I think makes each approach distinctive. If you want to understand <em>why</em> something is built the way it is, start there.
+    <br><br>
+    <strong style="color: #fbbf24;">Feedback very welcome</strong> &mdash;
+    I would genuinely appreciate feedback on the papers, the code, the architecture, or anything else. Open an issue, send a PR, or just start a discussion. All of it helps.
   </div>
 
   <nav>
     <div class="nav-container">
+      <a href="#verification" class="nav-link">Formal Verification</a>
+      <a href="#neurosymbolic" class="nav-link">Neurosymbolic AI</a>
       <a href="#languages" class="nav-link">Languages</a>
-      <a href="#infrastructure" class="nav-link">Infrastructure</a>
-      <a href="#devtools" class="nav-link">Dev Tools</a>
-      <a href="#security" class="nav-link">Security</a>
-      <a href="#network" class="nav-link">Network</a>
+      <a href="#devinfra" class="nav-link">Dev Infrastructure</a>
+      <a href="#databases" class="nav-link">Databases</a>
+      <a href="#standards" class="nav-link">Standards & Ethics</a>
       <a href="#science" class="nav-link">Science</a>
-      <a href="#standards" class="nav-link">Standards</a>
     </div>
   </nav>
 
   <main>
+    <!-- Formal Verification -->
+    <section class="category" id="verification">
+      <div class="category-header">
+        <h2>Formal Verification &amp; Provable Safety</h2>
+        <span class="category-count">6</span>
+      </div>
+      <div class="projects">
+        <a href="https://github.com/hyperpolymath/proven" class="project-card featured">
+          <div class="project-body">
+            <div class="project-header">
+              <span class="project-name">proven</span>
+              <span class="featured-badge">Core</span>
+            </div>
+            <p class="project-desc">Formally verified safety library in Idris2 with dependent types. 98 protocol implementations with mathematical correctness proofs. Arcvix paper inside.</p>
+          </div>
+        </a>
+        <a href="https://github.com/hyperpolymath/proven-servers" class="project-card featured">
+          <div class="project-body">
+            <div class="project-header">
+              <span class="project-name">proven-servers</span>
+              <span class="featured-badge">98 Protocols</span>
+            </div>
+            <p class="project-desc">Idris2 ABI + Zig FFI + C headers for 98 network protocols. The universal ABI/FFI standard in practice.</p>
+          </div>
+        </a>
+        <a href="https://github.com/hyperpolymath/typed-wasm" class="project-card">
+          <div class="project-body">
+            <div class="project-header">
+              <span class="project-name">typed-wasm</span>
+            </div>
+            <p class="project-desc">10-level dependent type safety for WebAssembly memory. Multi-module proofs. Potential arXiv paper.</p>
+          </div>
+        </a>
+        <a href="https://github.com/hyperpolymath/valence-shell" class="project-card">
+          <div class="project-body">
+            <div class="project-header">
+              <span class="project-name">valence-shell</span>
+            </div>
+            <p class="project-desc">Formally verified reversible shell. 250+ theorems across 6 independent proof systems (Lean, Coq, Agda, Isabelle, Mizar, Z3). Arcvix paper inside.</p>
+          </div>
+        </a>
+        <a href="https://github.com/hyperpolymath/ochrance" class="project-card">
+          <div class="project-body">
+            <div class="project-header">
+              <span class="project-name">ochrance</span>
+            </div>
+            <p class="project-desc">Neurosymbolic filesystem verification with Idris2 dependent types. Progressive assurance: Lax, Checked, Attested.</p>
+          </div>
+        </a>
+        <a href="https://github.com/hyperpolymath/januskey" class="project-card">
+          <div class="project-body">
+            <div class="project-header">
+              <span class="project-name">januskey</span>
+            </div>
+            <p class="project-desc">Reversible file operations where data loss is architecturally impossible. Content-addressed storage with transaction support.</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Neurosymbolic AI -->
+    <section class="category" id="neurosymbolic">
+      <div class="category-header">
+        <h2>Neurosymbolic AI</h2>
+        <span class="category-count">4</span>
+      </div>
+      <div class="projects">
+        <a href="https://github.com/hyperpolymath/echidna" class="project-card featured">
+          <div class="project-body">
+            <div class="project-header">
+              <span class="project-name">echidna</span>
+              <span class="featured-badge">Core</span>
+            </div>
+            <p class="project-desc">Neurosymbolic theorem prover. Neural proof synthesis accelerates formal verification. Rust + Julia + Idris2. Arcvix paper inside.</p>
+          </div>
+        </a>
+        <a href="https://github.com/hyperpolymath/hypatia" class="project-card featured">
+          <div class="project-body">
+            <div class="project-header">
+              <span class="project-name">hypatia</span>
+              <span class="featured-badge">Core</span>
+            </div>
+            <p class="project-desc">Neurosymbolic CI/CD intelligence engine. Pattern detection, dispatch, and automated remediation across 300+ repos. Arcvix paper inside.</p>
+          </div>
+        </a>
+        <a href="https://github.com/hyperpolymath/panll" class="project-card">
+          <div class="project-body">
+            <div class="project-header">
+              <span class="project-name">panll</span>
+            </div>
+            <p class="project-desc">Binary-star neurosymbolic IDE. ReScript TEA frontend, ECHIDNA-powered analysis, 50+ monitoring panels. Arcvix paper inside.</p>
+          </div>
+        </a>
+        <a href="https://github.com/hyperpolymath/conative-gating" class="project-card">
+          <div class="project-body">
+            <div class="project-header">
+              <span class="project-name">conative-gating</span>
+            </div>
+            <p class="project-desc">Motivation-aware neural gating for proof search. Intention directs computation. Arcvix paper inside.</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
     <!-- Languages & Compilers -->
     <section class="category" id="languages">
       <div class="category-header">
-        <span class="category-icon">🔤</span>
-        <h2>Languages & Compilers</h2>
-        <span class="category-count">5</span>
+        <h2>Original Programming Languages</h2>
+        <span class="category-count">6</span>
       </div>
       <div class="projects">
         <a href="https://github.com/hyperpolymath/nextgen-languages" class="project-card featured">
           <div class="project-body">
             <div class="project-header">
               <span class="project-name">nextgen-languages</span>
-              <span class="featured-badge">Monorepo</span>
+              <span class="featured-badge">14 Languages</span>
             </div>
-            <p class="project-desc">Three original programming languages: WokeLang (awareness-focused), Eclexia (adaptive), and My-Lang (AI-first progressive complexity).</p>
+            <p class="project-desc">Monorepo of original programming languages: WokeLang, Eclexia, Ephapax, AffineScript, Anvomidav, BetLang, and more. Arcvix papers in several.</p>
           </div>
         </a>
-        <a href="https://github.com/hyperpolymath/affinescript" class="project-card">
+        <a href="https://github.com/hyperpolymath/ephapax" class="project-card">
           <div class="project-body">
             <div class="project-header">
-              <span class="project-name">affinescript</span>
+              <span class="project-name">ephapax</span>
             </div>
-            <p class="project-desc">OCaml-based programming language with affine types and formal verification.</p>
+            <p class="project-desc">Region-linear fusion language. Use-once semantics meets region-based memory. 15 Rust crates. Two arcvix papers: Code as Matter + Dyadic Language Design.</p>
           </div>
         </a>
-        <a href="https://github.com/hyperpolymath/oblibeny" class="project-card">
+        <a href="https://github.com/hyperpolymath/wokelang" class="project-card">
           <div class="project-body">
             <div class="project-header">
-              <span class="project-name">oblibeny</span>
+              <span class="project-name">wokelang</span>
             </div>
-            <p class="project-desc">Privacy-preserving systems language with OCaml compiler, Rust transpiler, and Zig FFI package manager.</p>
+            <p class="project-desc">Consent-aware programming language where data access requires explicit consent declarations. Arcvix paper inside.</p>
           </div>
         </a>
         <a href="https://github.com/hyperpolymath/language-bridges" class="project-card">
@@ -579,35 +686,58 @@
             <div class="project-header">
               <span class="project-name">language-bridges</span>
             </div>
-            <p class="project-desc">FFI bridges between 15 languages via Zig, implementing the ABI/FFI Universal Standard (Idris2 + Zig).</p>
+            <p class="project-desc">FFI bridges between 15 languages via Zig, implementing the Idris2 ABI / Zig FFI universal standard.</p>
           </div>
         </a>
-        <a href="https://github.com/hyperpolymath/raze-tui" class="project-card">
+        <a href="https://github.com/hyperpolymath/affinescript" class="project-card">
           <div class="project-body">
             <div class="project-header">
-              <span class="project-name">raze-tui</span>
+              <span class="project-name">affinescript</span>
             </div>
-            <p class="project-desc">Rust-Ada-Zig TUI library: Zig FFI bridge between Rust core and Ada/SPARK TUI.</p>
+            <p class="project-desc">OCaml-based language with affine types and formal verification integration.</p>
+          </div>
+        </a>
+        <a href="https://github.com/hyperpolymath/vql-ut" class="project-card">
+          <div class="project-body">
+            <div class="project-header">
+              <span class="project-name">vql-ut</span>
+            </div>
+            <p class="project-desc">10-level type-safe query language for VeriSimDB. Dependent types ensure query correctness at compile time. Arcvix paper inside.</p>
           </div>
         </a>
       </div>
     </section>
 
-    <!-- Infrastructure -->
-    <section class="category" id="infrastructure">
+    <!-- Developer Infrastructure -->
+    <section class="category" id="devinfra">
       <div class="category-header">
-        <span class="category-icon">🏗️</span>
-        <h2>Infrastructure</h2>
-        <span class="category-count">4</span>
+        <h2>Developer Infrastructure</h2>
+        <span class="category-count">6</span>
       </div>
       <div class="projects">
-        <a href="https://github.com/hyperpolymath/polystack" class="project-card featured">
+        <a href="https://github.com/hyperpolymath/boj-server" class="project-card featured">
           <div class="project-body">
             <div class="project-header">
-              <span class="project-name">polystack</span>
-              <span class="featured-badge">Monorepo</span>
+              <span class="project-name">boj-server</span>
+              <span class="featured-badge">MCP Server</span>
             </div>
-            <p class="project-desc">Unified polyglot tooling: cloud, container, db, git, iac, k8s, observability, orchestrator-lsp, proof, queue, secret, and SSG.</p>
+            <p class="project-desc">Box of Justice MCP server. 70+ cartridges: GitHub, GitLab, Cloudflare, Vercel, Gmail, browser automation, ML, research. The central tool hub.</p>
+          </div>
+        </a>
+        <a href="https://github.com/hyperpolymath/gitbot-fleet" class="project-card">
+          <div class="project-body">
+            <div class="project-header">
+              <span class="project-name">gitbot-fleet</span>
+            </div>
+            <p class="project-desc">Bot orchestration: rhodibot, echidnabot, sustainabot, glambot, seambot. Automated scanning, fixing, and PR creation across 300+ repos.</p>
+          </div>
+        </a>
+        <a href="https://github.com/hyperpolymath/panic-attacker" class="project-card">
+          <div class="project-body">
+            <div class="project-header">
+              <span class="project-name">panic-attacker</span>
+            </div>
+            <p class="project-desc">Security audit tool with Patch Bridge CVE lifecycle management. Formal proofs for mitigation correctness. Arcvix paper inside.</p>
           </div>
         </a>
         <a href="https://github.com/hyperpolymath/reposystem" class="project-card">
@@ -615,51 +745,15 @@
             <div class="project-header">
               <span class="project-name">reposystem</span>
             </div>
-            <p class="project-desc">Repository management system: git-hud dashboard, forge synchronization, and repo lifecycle tools.</p>
+            <p class="project-desc">Repository management monorepo: contractiles (must/trust/dust/intend/k9), claim-forge, scaffoldia, git-seo, bitfuckit.</p>
           </div>
         </a>
-        <a href="https://github.com/hyperpolymath/nickel-augmentation" class="project-card">
+        <a href="https://github.com/hyperpolymath/stapeln" class="project-card">
           <div class="project-body">
             <div class="project-header">
-              <span class="project-name">nickel-augmentation</span>
+              <span class="project-name">stapeln</span>
             </div>
-            <p class="project-desc">Nickel configuration language tools: config reporter, augmented templates, and audit reporting.</p>
-          </div>
-        </a>
-        <a href="https://github.com/hyperpolymath/immutable-linux-auditor" class="project-card">
-          <div class="project-body">
-            <div class="project-header">
-              <span class="project-name">immutable-linux-auditor</span>
-            </div>
-            <p class="project-desc">Audit tool for immutable Linux distributions (Fedora Kinoite, Silverblue, NixOS).</p>
-          </div>
-        </a>
-      </div>
-    </section>
-
-    <!-- Developer Tools -->
-    <section class="category" id="devtools">
-      <div class="category-header">
-        <span class="category-icon">🛠️</span>
-        <h2>Developer Tools</h2>
-        <span class="category-count">6</span>
-      </div>
-      <div class="projects">
-        <a href="https://github.com/hyperpolymath/gitbot-fleet" class="project-card featured">
-          <div class="project-body">
-            <div class="project-header">
-              <span class="project-name">gitbot-fleet</span>
-              <span class="featured-badge">Featured</span>
-            </div>
-            <p class="project-desc">Bot orchestration fleet: rhodibot, echidnabot, sustainabot, glambot, seambot - automated repo management.</p>
-          </div>
-        </a>
-        <a href="https://github.com/hyperpolymath/git-seo" class="project-card">
-          <div class="project-body">
-            <div class="project-header">
-              <span class="project-name">git-seo</span>
-            </div>
-            <p class="project-desc">Make your Git repositories discoverable with SEO optimization tools. Julia CLI, 26 tests passing.</p>
+            <p class="project-desc">Logic-driven container security. Chainguard base images, formal verification of container invariants. Arcvix paper inside.</p>
           </div>
         </a>
         <a href="https://github.com/hyperpolymath/seamstress" class="project-card">
@@ -667,119 +761,93 @@
             <div class="project-header">
               <span class="project-name">seamstress</span>
             </div>
-            <p class="project-desc">Architectural seams as first-class artifacts - documented, checkable, evolvable boundaries.</p>
-          </div>
-        </a>
-        <a href="https://github.com/hyperpolymath/fogbinder" class="project-card">
-          <div class="project-body">
-            <div class="project-header">
-              <span class="project-name">fogbinder</span>
-            </div>
-            <p class="project-desc">Static site binder with RSR compliance and multi-format output.</p>
-          </div>
-        </a>
-        <a href="https://github.com/hyperpolymath/techstack-filterlist" class="project-card">
-          <div class="project-body">
-            <div class="project-header">
-              <span class="project-name">techstack-filterlist</span>
-            </div>
-            <p class="project-desc">Tech stack whitelist/blacklist tool for enforcing language and framework policies.</p>
-          </div>
-        </a>
-        <a href="https://github.com/hyperpolymath/asdf-augmenters" class="project-card">
-          <div class="project-body">
-            <div class="project-header">
-              <span class="project-name">asdf-augmenters</span>
-            </div>
-            <p class="project-desc">Meta-tools enhancing the asdf version manager: acceleration middleware, security plugin, control tower.</p>
+            <p class="project-desc">Architectural seams as first-class artifacts. Validate, graph, and report on module boundaries across projects.</p>
           </div>
         </a>
       </div>
     </section>
 
-    <!-- Security -->
-    <section class="category" id="security">
+    <!-- Databases -->
+    <section class="category" id="databases">
       <div class="category-header">
-        <span class="category-icon">🔒</span>
-        <h2>Security</h2>
+        <h2>Databases &amp; Data</h2>
         <span class="category-count">3</span>
       </div>
       <div class="projects">
-        <a href="https://github.com/hyperpolymath/hypatia" class="project-card featured">
+        <a href="https://github.com/hyperpolymath/nextgen-databases" class="project-card featured">
           <div class="project-body">
             <div class="project-header">
-              <span class="project-name">hypatia</span>
-              <span class="featured-badge">Core</span>
+              <span class="project-name">verisimdb</span>
+              <span class="featured-badge">Novel</span>
             </div>
-            <p class="project-desc">Neurosymbolic CI/CD intelligence engine. Security scanning with formal verification guarantees.</p>
+            <p class="project-desc">Octad data model database: graph + vector + tensor + semantic + document + temporal + provenance + spatial. Rust core, Elixir OTP, 6 language SDKs. Arcvix paper inside.</p>
           </div>
         </a>
-        <a href="https://github.com/hyperpolymath/mcp-repo-guardian" class="project-card">
+        <a href="https://github.com/hyperpolymath/feedback-o-tron" class="project-card">
           <div class="project-body">
             <div class="project-header">
-              <span class="project-name">mcp-repo-guardian</span>
+              <span class="project-name">feedback-o-tron</span>
             </div>
-            <p class="project-desc">MCP server enforcing the AI Gatekeeper Protocol. Prevents structural drift across all repos.</p>
+            <p class="project-desc">Upstream bug report routing and tracking. Ensures fixes flow back to the right places.</p>
           </div>
         </a>
-        <a href="https://github.com/hyperpolymath/verified-container-spec" class="project-card">
+        <a href="https://github.com/hyperpolymath/Cliodynamics.jl" class="project-card">
           <div class="project-body">
             <div class="project-header">
-              <span class="project-name">verified-container-spec</span>
+              <span class="project-name">Cliodynamics.jl</span>
             </div>
-            <p class="project-desc">Attestation and verification protocol for supply-chain-verified containers.</p>
+            <p class="project-desc">Mathematical models of historical dynamics in Julia. Secular cycles, elite overproduction, structural-demographic theory.</p>
           </div>
         </a>
       </div>
     </section>
 
-    <!-- Network -->
-    <section class="category" id="network">
+    <!-- Standards & Ethics -->
+    <section class="category" id="standards">
       <div class="category-header">
-        <span class="category-icon">🌐</span>
-        <h2>Network</h2>
+        <h2>Standards, Ethics &amp; Consent</h2>
         <span class="category-count">5</span>
       </div>
       <div class="projects">
-        <a href="https://github.com/hyperpolymath/ipv6-tools" class="project-card featured">
+        <a href="https://github.com/hyperpolymath/palimpsest-license" class="project-card featured">
           <div class="project-body">
             <div class="project-header">
-              <span class="project-name">ipv6-tools</span>
-              <span class="featured-badge">Monorepo</span>
+              <span class="project-name">palimpsest-license</span>
+              <span class="featured-badge">PMPL</span>
             </div>
-            <p class="project-desc">IPv6 enforcement, site auditing, and ingress tools consolidated from 5 repositories.</p>
+            <p class="project-desc">The Palimpsest License (PMPL-1.0). Emotional lineage licensing &mdash; honouring the history of code. Arcvix paper inside.</p>
           </div>
         </a>
-        <a href="https://github.com/hyperpolymath/network-dashboard" class="project-card">
+        <a href="https://github.com/hyperpolymath/rhodium-standard-repositories" class="project-card">
           <div class="project-body">
             <div class="project-header">
-              <span class="project-name">network-dashboard</span>
+              <span class="project-name">rhodium-standard-repositories</span>
             </div>
-            <p class="project-desc">Monitoring suite for Twingate, ZeroTier, IPFS, IPv6 ingress, and network health.</p>
+            <p class="project-desc">The RSR 2026 Standard for repository quality, governance, and compliance. consent-aware-http (HTTP 430) lives here too.</p>
           </div>
         </a>
-        <a href="https://github.com/hyperpolymath/zerotier-k8s-link" class="project-card">
+        <a href="https://github.com/hyperpolymath/intsoc-transactor" class="project-card">
           <div class="project-body">
             <div class="project-header">
-              <span class="project-name">zerotier-k8s-link</span>
+              <span class="project-name">intsoc-transactor</span>
             </div>
-            <p class="project-desc">ZeroTier overlay networking for Kubernetes nodes and service routing.</p>
+            <p class="project-desc">Internet Society document pipeline: check, fix, submit across IETF/IRTF/IAB/IANA streams with consent-aware publication.</p>
           </div>
         </a>
-        <a href="https://github.com/hyperpolymath/bgp-backbone-lab" class="project-card">
+        <a href="https://github.com/hyperpolymath/union-policy-parser" class="project-card">
           <div class="project-body">
             <div class="project-header">
-              <span class="project-name">bgp-backbone-lab</span>
+              <span class="project-name">union-policy-parser</span>
             </div>
-            <p class="project-desc">Private BGP routing, ASN allocation, route maps, and backbone simulation.</p>
+            <p class="project-desc">Labour agreements as executable contracts. Workers' rights need types.</p>
           </div>
         </a>
-        <a href="https://github.com/hyperpolymath/ipfs-overlay" class="project-card">
+        <a href="https://github.com/hyperpolymath/maa-framework" class="project-card">
           <div class="project-body">
             <div class="project-header">
-              <span class="project-name">ipfs-overlay</span>
+              <span class="project-name">maa-framework</span>
             </div>
-            <p class="project-desc">IPFS node deployment with encrypted overlay transport integration.</p>
+            <p class="project-desc">Mutually Assured Accountability. Transparent governance with provable audit trails.</p>
           </div>
         </a>
       </div>
@@ -788,17 +856,17 @@
     <!-- Science -->
     <section class="category" id="science">
       <div class="category-header">
-        <span class="category-icon">🔬</span>
-        <h2>Science</h2>
+        <h2>Science &amp; Games</h2>
         <span class="category-count">3</span>
       </div>
       <div class="projects">
-        <a href="https://github.com/hyperpolymath/Cliodynamics.jl" class="project-card">
+        <a href="https://github.com/hyperpolymath/idaptik" class="project-card featured">
           <div class="project-body">
             <div class="project-header">
-              <span class="project-name">Cliodynamics.jl</span>
+              <span class="project-name">idaptik</span>
+              <span class="featured-badge">Game</span>
             </div>
-            <p class="project-desc">Mathematical models of historical dynamics based on Peter Turchin's work. Julia library with secular cycles and elite overproduction.</p>
+            <p class="project-desc">Asymmetric epistemic co-op game. Jessica (platformer) + Q (CCTV/blueprints) never see the same view. ReScript + Rust. Arcvix paper inside.</p>
           </div>
         </a>
         <a href="https://github.com/hyperpolymath/Cliometrics.jl" class="project-card">
@@ -806,7 +874,7 @@
             <div class="project-header">
               <span class="project-name">Cliometrics.jl</span>
             </div>
-            <p class="project-desc">Quantitative economic history analysis in Julia. Growth decomposition, convergence analysis, institutional quality indices.</p>
+            <p class="project-desc">Quantitative economic history in Julia. Growth decomposition, convergence analysis, institutional quality indices.</p>
           </div>
         </a>
         <a href="https://github.com/hyperpolymath/Cladistics.jl" class="project-card">
@@ -814,59 +882,7 @@
             <div class="project-header">
               <span class="project-name">Cladistics.jl</span>
             </div>
-            <p class="project-desc">Phylogenetic analysis in Julia. UPGMA, neighbor-joining, maximum parsimony, bootstrap support, Newick I/O.</p>
-          </div>
-        </a>
-      </div>
-    </section>
-
-    <!-- Standards & Frameworks -->
-    <section class="category" id="standards">
-      <div class="category-header">
-        <span class="category-icon">📋</span>
-        <h2>Standards & Social Tech</h2>
-        <span class="category-count">5</span>
-      </div>
-      <div class="projects">
-        <a href="https://github.com/hyperpolymath/rhodium-standard-repositories" class="project-card featured">
-          <div class="project-body">
-            <div class="project-header">
-              <span class="project-name">rhodium-standard-repositories</span>
-              <span class="featured-badge">Core</span>
-            </div>
-            <p class="project-desc">The RSR 2026 Standard for repository quality, governance, and compliance across 275+ repos.</p>
-          </div>
-        </a>
-        <a href="https://github.com/hyperpolymath/contractiles" class="project-card">
-          <div class="project-body">
-            <div class="project-header">
-              <span class="project-name">contractiles</span>
-            </div>
-            <p class="project-desc">Executable contracts framework with dust, lust, and trust CLI executors.</p>
-          </div>
-        </a>
-        <a href="https://github.com/hyperpolymath/maa-framework" class="project-card">
-          <div class="project-body">
-            <div class="project-header">
-              <span class="project-name">maa-framework</span>
-            </div>
-            <p class="project-desc">Mutually Assured Accountability Framework for transparent governance.</p>
-          </div>
-        </a>
-        <a href="https://github.com/hyperpolymath/union-policy-parser" class="project-card">
-          <div class="project-body">
-            <div class="project-header">
-              <span class="project-name">union-policy-parser</span>
-            </div>
-            <p class="project-desc">Labour agreements as executable contracts. Because workers' rights need types.</p>
-          </div>
-        </a>
-        <a href="https://github.com/hyperpolymath/well-known-ecosystem" class="project-card">
-          <div class="project-body">
-            <div class="project-header">
-              <span class="project-name">well-known-ecosystem</span>
-            </div>
-            <p class="project-desc">Well-known URI ecosystem management and discovery protocol.</p>
+            <p class="project-desc">Phylogenetic analysis in Julia. UPGMA, neighbor-joining, maximum parsimony, bootstrap, Newick I/O.</p>
           </div>
         </a>
       </div>
@@ -880,7 +896,8 @@
       <a href="https://bitbucket.org/hyperpolymath">Bitbucket</a>
     </p>
     <p style="margin-top: 12px; font-size: 0.875rem;">
-      All projects licensed under <a href="https://github.com/hyperpolymath/palimpsest-license">PMPL-1.0-or-later</a> (Palimpsest License) unless otherwise noted
+      All projects licensed under <a href="https://github.com/hyperpolymath/palimpsest-license">PMPL-1.0-or-later</a> (Palimpsest License) unless otherwise noted.
+      Many repos contain <code>arcvix-*.tex</code> papers explaining the design rationale &mdash; start there to understand the approach.
     </p>
   </footer>
 </body>
