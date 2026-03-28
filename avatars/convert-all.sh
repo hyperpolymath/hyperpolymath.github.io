@@ -1,6 +1,6 @@
 #!/bin/bash
 # Convert all SVG avatars to PNG for GitHub social preview
-cd /var/home/hyper/hyperpolymath.github.io/avatars
+cd /var$HOME/hyperpolymath.github.io/avatars
 mkdir -p png
 
 for svg in *.svg; do

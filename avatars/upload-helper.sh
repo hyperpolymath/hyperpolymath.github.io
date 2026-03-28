@@ -42,7 +42,7 @@ SPECIFIC_REPOS=(
     "hackenbush-ssg:hackenbush-ssg"
 )
 
-AVATAR_DIR="/var/home/hyper/hyperpolymath.github.io/avatars/png"
+AVATAR_DIR="/var$HOME/hyperpolymath.github.io/avatars/png"
 
 echo "=== GitHub Avatar Upload Helper ==="
 echo ""
