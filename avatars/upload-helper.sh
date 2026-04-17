@@ -5,6 +5,7 @@
 # Specific project avatars
 SPECIFIC_REPOS=(
     "hyperpolymath.github.io:hyperpolymath"
+    "boj-server:boj-server"
     "claude-firefox-mcp:claude-firefox-mcp"
     "poly-container-mcp:poly-container-mcp"
     "poly-secret-mcp:poly-secret-mcp"

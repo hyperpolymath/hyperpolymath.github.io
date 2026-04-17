@@ -9,6 +9,7 @@ These repos have custom-designed avatars:
 | Repo | Avatar File |
 |------|-------------|
 | hyperpolymath.github.io | hyperpolymath.svg |
+| boj-server | boj-server.svg |
 | claude-firefox-mcp | claude-firefox-mcp.svg |
 | poly-container-mcp | poly-container-mcp.svg |
 | poly-secret-mcp | poly-secret-mcp.svg |
