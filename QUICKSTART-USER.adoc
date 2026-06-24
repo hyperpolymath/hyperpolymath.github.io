@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: CC-BY-SA-4.0
 // Template: QUICKSTART-USER.adoc — 5-minute path to working software
 // Replace hyperpolymath.github.io, Hyperpolymath.Github.Io — See README.adoc for details., just run, Hyperpolymath.Github.Io started successfully. with actuals
 = hyperpolymath.github.io — Quick Start for Users
