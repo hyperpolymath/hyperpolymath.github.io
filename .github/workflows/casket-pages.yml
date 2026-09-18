@@ -78,6 +78,30 @@ jobs:
           fi
           cd .casket-ssg && cabal run casket-ssg -- build ../site ../_site
 
+      - name: Publish well-known resources
+        run: |
+          # .well-known/ must be served from the ORIGIN ROOT (RFC 8615), and
+          # for this repository that root is hyperpolymath.github.io itself —
+          # the one repo in the estate where the rule applies without
+          # qualification.
+          #
+          # It has never actually been served. This workflow publishes _site/,
+          # built from site/, so the repository root is not uploaded at all and
+          # every discovery path 404s:
+          #
+          #   https://hyperpolymath.github.io/.well-known/security.txt  -> 404
+          #
+          # Copying it into the artifact rather than moving the directory keeps
+          # the file where every other repository in the estate keeps it, so
+          # existing tooling and the RSR sweeps continue to find it.
+          if [ -d .well-known ]; then
+            cp -r .well-known _site/.well-known
+            echo "published .well-known/:"
+            find _site/.well-known -type f | sed 's/^/  /'
+          else
+            echo "no .well-known/ at the repository root; nothing to publish"
+          fi
+
       - name: Setup Pages
         uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
 
