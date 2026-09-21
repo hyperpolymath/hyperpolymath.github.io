@@ -288,8 +288,8 @@ echo "::group::A2ML Manifest Validation"
 echo "Scanning ${SCAN_PATH} for .a2ml files..."
 echo ""
 
-# Find all .a2ml files, excluding .git directory
-mapfile -t a2ml_candidates < <(find "$SCAN_PATH" -name '*.a2ml' -not -path '*/.git/*' -type f | sort)
+# Find all manifest files, excluding .git directory
+mapfile -t a2ml_candidates < <(find "$SCAN_PATH" \( -name '*.a2ml' -o -name '*.deed' \) -not -path '*/.git/*' -type f | sort)
 
 # Apply paths-ignore filter
 a2ml_files=()
